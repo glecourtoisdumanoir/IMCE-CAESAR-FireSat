@@ -1,0 +1,101 @@
+# WorkPackages supplies:
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "Firesat project" ;
+            project:authorizes      <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAB> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAC> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAD> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAE> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAF> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAG> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAH> , <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAI> ;
+	    project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuPqjMREAqsugFyA5CczjvwsaMKEKMcrXxLr6b94S>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAB>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP5" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_3oEV5GWh66ZdAKmjh7jX7GZse2LTHzjm99nfsriejzwiFcVHCxY>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAC>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.10" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_2PnebdooerFHnvwzcNTnqt563Lj2EZTrjZrUYBGmvHCTbVC6drJJXV8s5Y>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAD>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.4" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMS5bUbgHFsv5P1vvNCw49K1383WVrkYbWSc>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAE>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.5" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMSUw5gmPy517uASU5k2soDqnxnqoUjYZwJ6>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAF>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.6" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMStGgcJq4Bw1NpQXANNLSdetb6wA7cLKMpJ>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAG>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.7" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMTHcHr7XSD1oy9Ja8KtxuEHt2s8q7fMqDy8>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAH>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.8" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMTgwtdaWdwMMwyFhCjNnZwEjvoNAX2d5FTC>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAI>
+            a                       project:WorkPackage ;
+            base:hasCanonicalName   "WP6.4.9" ;
+            project:isAuthorizedBy  <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>;
+            project:supplies        <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMU6HVoEDj47mZD823Yvvk97M44UesxEA2ar>.
+
+
+# Subsystems are supplied by:
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_2PnebdooerFHnvwzcNTnqt563Lj2EZTrjZrUYBGmvHCTbVC6drJJXV8s5Y>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Command and data handling" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAC>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuPqjMREAqsugFyA5CczjvwsaMKEKMcrXxLr6b94S>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Firesat flight system" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAA>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMS5bUbgHFsv5P1vvNCw49K1383WVrkYbWSc>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Structures and mechanisms" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAD>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMSUw5gmPy517uASU5k2soDqnxnqoUjYZwJ6>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Thermal control" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAE>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMStGgcJq4Bw1NpQXANNLSdetb6wA7cLKMpJ>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "EPS" ;	    
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAF>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMTHcHr7XSD1oy9Ja8KtxuEHt2s8q7fMqDy8>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "ADCS and GNC" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAG>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMTgwtdaWdwMMwyFhCjNnZwEjvoNAX2d5FTC>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Propulsion" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAH>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_KJbM5iRAUvXzXoSjuSZ8uMU6HVoEDj47mZD823Yvvk97M44UesxEA2ar>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Communications" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAI>.
+
+    <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Baseline#ID_3oEV5GWh66ZdAKmjh7jX7GZse2LTHzjm99nfsriejzwiFcVHCxY>
+            a                              fse:Subsystem ;
+	          base:hasCanonicalName          "Payload" ;
+	          project:isSuppliedBy           <http://io.openceasar.firesat/efse/flightsystem/FlightSystem/Proposed#ID_testAAAAAAAAB>.

@@ -1,0 +1,80 @@
+                                    levelName level
+1  Power Control Unit                             1
+2   ¦--Base plate module                          2
+3   ¦   ¦--ACS thruster 1                         3
+4   ¦   ¦--ACS thruster 2                         3
+5   ¦   ¦--ACS thruster 3                         3
+6   ¦   ¦--ACS thruster 4                         3
+7   ¦   ¦--ACS thruster 5                         3
+8   ¦   ¦--ACS thruster 6                         3
+9   ¦   ¦--Avionics stack section                 3
+10  ¦   ¦--Base plate                             3
+11  ¦   ¦--Battery pack 1                         3
+12  ¦   ¦--Battery pack 2                         3
+13  ¦   ¦--Battery pack 3                         3
+14  ¦   ¦--GPS antenna                            3
+15  ¦   ¦--Magnetometer                           3
+16  ¦   ¦--Primary thruster                       3
+17  ¦   ¦--Propellant handling section            3
+18  ¦   ¦--Reaction wheel 1                       3
+19  ¦   ¦--Reaction wheel 2                       3
+20  ¦   ¦--Reaction wheel 3                       3
+21  ¦   °--Reaction wheel 4                       3
+22  ¦--Avionics stack section                     2
+23  ¦   ¦--ADCS electronics unit                  3
+24  ¦   ¦--EPS regulators and converters unit     3
+25  ¦   ¦--GPS receiver unit                      3
+26  ¦   ¦--Magnetorquer 1                         3
+27  ¦   ¦--Magnetorquer 2                         3
+28  ¦   ¦--Magnetorquer 3                         3
+29  ¦   ¦--Primary flight computer unit           3
+30  ¦   ¦--Propulsion system control unit         3
+31  ¦   ¦--Receiver unit                          3
+32  ¦   °--Transmitter unit                       3
+33  ¦--Firesat spacecraft system segment          2
+34  ¦   ¦--Base plate module                      3
+35  ¦   ¦--Launch vehicle interface module        3
+36  ¦   ¦--Payload module                         3
+37  ¦   ¦--Propulsion module                      3
+38  ¦   ¦--Side panel 1                           3
+39  ¦   ¦--Side panel 2                           3
+40  ¦   ¦--Side panel 3                           3
+41  ¦   ¦--Side panel 4                           3
+42  ¦   ¦--Side panel 5                           3
+43  ¦   ¦--Side panel 6                           3
+44  ¦   ¦--Solar array with SADA 1                3
+45  ¦   ¦--Solar array with SADA 2                3
+46  ¦   ¦--Thermal blankets                       3
+47  ¦   °--Top panel module                       3
+48  ¦--Propellant handling section                2
+49  ¦   ¦--BP propellant line unit                3
+50  ¦   °--Fill                                   3
+51  ¦       °--Drain valve unit                   4
+52  ¦--Top panel module                           2
+53  ¦   ¦--Earth sensor                           3
+54  ¦   ¦--Receive whip antenna                   3
+55  ¦   ¦--Structure post 1                       3
+56  ¦   ¦--Structure post 2                       3
+57  ¦   ¦--Structure post 3                       3
+58  ¦   ¦--Structure post 4                       3
+59  ¦   ¦--Structure post 5                       3
+60  ¦   ¦--Structure post 6                       3
+61  ¦   ¦--Sun sensor                             3
+62  ¦   ¦--Top panel                              3
+63  ¦   ¦--Transmit hi-gain antenna               3
+64  ¦   °--Transmit whip antenna                  3
+65  ¦--Payload module                             2
+66  ¦   ¦--Payload structural interface           3
+67  ¦   °--Sensor                                 3
+68  ¦--Propulsion module                          2
+69  ¦   ¦--PM propellant line unit                3
+70  ¦   ¦--Pressurant tank                        3
+71  ¦   ¦--Pressurant tank mounting panel         3
+72  ¦   ¦--Propellant tank                        3
+73  ¦   ¦--Propellant tank mounting panel         3
+74  ¦   ¦--Propulsion structure post 1            3
+75  ¦   ¦--Propulsion structure post 2            3
+76  ¦   ¦--Propulsion structure post 3            3
+77  ¦   °--Propulsion structure post 4            3
+78  °--Launch vehicle interface module            2
+79      °--Separation system                      3

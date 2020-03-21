@@ -1,0 +1,2 @@
+2019-11-13 13:29:56,042  INFO Activator - log4j for Trinity Frontend is configured with file:/C:/Program Files/MapleMBSE 2019/OSGiBridge/log4j.properties
+2019-11-13 13:29:56,046  INFO Activator - com.ibm.trinity.frontend.TrinityService (2019.0.1.201902150728) is registered as an OSGi service

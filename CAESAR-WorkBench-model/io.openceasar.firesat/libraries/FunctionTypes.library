@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efse:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_YKZcEIFnEeiNqNyH9cEJTQ" name="StandardFunctions">
+  <types xsi:type="efse:AbstractFunction" xmi:id="_DR948Ne8EeiuAbYHHgCuKg" name="BaseFunction"/>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDIIFnEeiNqNyH9cEJTQ" name="Power" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDIYFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4YFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDIoFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4YFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDI4FnEeiNqNyH9cEJTQ" name="BidirectionalPower" specializes="_YKaDIIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDJIFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_43mrYIPTEeiQc-oUOpW0_g"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDJYFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_43mrYIPTEeiQc-oUOpW0_g"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDJoFnEeiNqNyH9cEJTQ" name="UnidirectionalPower" specializes="_YKaDIIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDJ4FnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDKIFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_Exlb8CW4EemYo7gPt8jxrA" name="UMBPower" specializes="_YKaDJoFnEeiNqNyH9cEJTQ"/>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_qiMZcLqkEeiC0YR_juOjkw" name="UnidirectionalPower2A" specializes="_YKaDJoFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CDJiULqlEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF5oFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_8DMyELqkEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_vHfwoLqkEeiC0YR_juOjkw" name="UnidirectionalPower5A" specializes="_YKaDJoFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_D9Th4LqlEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF6IFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_9j5IwLqkEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_yb5goLqkEeiC0YR_juOjkw" name="UnidirectionalPower4A" specializes="_YKaDJoFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_GJtIALqlEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF5oFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="__L8EoLqkEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_0nZH0LqkEeiC0YR_juOjkw" name="UnidirectionalPower10A" specializes="_YKaDJoFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_HWE0gLqlEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF6IFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_AvNOMLqlEeiC0YR_juOjkw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDKYFnEeiNqNyH9cEJTQ" name="HVPower">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_fEUhAIR3EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_VWJykIR3EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_gtMjUIR3EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_Y7mPQIR3EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDK4FnEeiNqNyH9cEJTQ" name="Command" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_JtYvsJsgEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_7XtqoJsfEeiDsuTMhhy3_A"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_LB9V8JsgEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_4mA_EJsfEeiDsuTMhhy3_A"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDLIFnEeiNqNyH9cEJTQ" name="Measurement" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_m_gbYJsfEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF7YFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_nqTr4JsfEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF7oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_DBfS8IR4EeieNeA7SCF4pw" name="MIL1553Bus" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_L5NhkIR4EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_HpXdAIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_Nj5hwIR4EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_HpXdAIR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_s89TsCW4EemYo7gPt8jxrA" name="MIL1553Rt" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_3AnxACW4EemYo7gPt8jxrA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_HpXdAIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_3xEWgCW4EemYo7gPt8jxrA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_HpXdAIR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDLYFnEeiNqNyH9cEJTQ" name="Radio" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDLoFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDL4FnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_mELfoIuJEeiTupaJHm4Zrw" name="UnidirectionalRadio" specializes="_YKaDLYFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_tKyV8IuJEeiTupaJHm4Zrw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_iyCa0IR1EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_vyCFAIuJEeiTupaJHm4Zrw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_eFaToIR1EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_ph1SQIuJEeiTupaJHm4Zrw" name="BidirectionalRadio" specializes="_YKaDLYFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_x33JEIuJEeiTupaJHm4Zrw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_zfX5cIuJEeiTupaJHm4Zrw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDMIFnEeiNqNyH9cEJTQ" name="OpticalComm">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_yNa6wJseEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_tQBzsJseEeiDsuTMhhy3_A"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_0jgoYJseEeiDsuTMhhy3_A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_tQBzsJseEeiDsuTMhhy3_A"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_HhTHIJzXEeiXPZI4GXmwWA" name="Ethernet">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_JPd5IJzXEeiXPZI4GXmwWA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_2d5QgJzWEeiXPZI4GXmwWA"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_Lx5ZoJzXEeiXPZI4GXmwWA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_2d5QgJzWEeiXPZI4GXmwWA"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDNYFnEeiNqNyH9cEJTQ" name="DiscreteMeasurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDNoFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF8oFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDN4FnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-4FoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_clL0ACW4EemYo7gPt8jxrA" name="UMBDiscreteMeasurement" specializes="_YKaDNYFnEeiNqNyH9cEJTQ"/>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_YKaDOIFnEeiNqNyH9cEJTQ" name="PRT2Measurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDOYFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF8IFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_YKaDOoFnEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks_IFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_KbYR4IFoEeiNqNyH9cEJTQ" name="PRT4Measurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_X3U5oIFoEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF74FoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_boZ-kIFoEeiNqNyH9cEJTQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks_IFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_70l2IIRxEeieNeA7SCF4pw" name="VoltageMeasurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_Dbmq0IRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks9YFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_GejecIRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-oFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_hS-_4CW4EemYo7gPt8jxrA" name="UMBVoltageMeasurement" specializes="_70l2IIRxEeieNeA7SCF4pw"/>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_VuJdoBRHEemaJI6aVZby9Q" name="VoltageMeasurementActive" specializes="_70l2IIRxEeieNeA7SCF4pw">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_9AzksBRHEemaJI6aVZby9Q">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_pmPpcBRHEemaJI6aVZby9Q"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_AHqn8BRIEemaJI6aVZby9Q">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_3tWuEBRHEemaJI6aVZby9Q"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_aefAIBRHEemaJI6aVZby9Q" name="VoltageMeasurementPassive" specializes="_70l2IIRxEeieNeA7SCF4pw">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CuhVcBRIEemaJI6aVZby9Q">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_iejOABRHEemaJI6aVZby9Q"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_FCLaIBRIEemaJI6aVZby9Q">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_y-P6oBRHEemaJI6aVZby9Q"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_MxVEEIRyEeieNeA7SCF4pw" name="CurrentMeasurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_P6ZGwIRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks9oFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_RaFX4IRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-YFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_WU3P0IRyEeieNeA7SCF4pw" name="DosimeterMeasurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_a-_coIRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks94FoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_cXEC0IRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-IFoEeiNqNyH9cEJTQ"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_lQC1sIRyEeieNeA7SCF4pw" name="ThermistorMeasurement" specializes="_YKaDLIFnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_n-6PsIRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF8YFoEeiNqNyH9cEJTQ"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_pecIwIRyEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_frbWkIRyEeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_RsZacIRzEeieNeA7SCF4pw" name="DiscreteCommand" specializes="_YKaDK4FnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_UL_pYIRzEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_dk2PIIRzEeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_igg34IRzEeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_Yb3jIIRzEeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_76Qw4JanEeigN9ezVapLOg" name="VoltageCommand" specializes="_YKaDK4FnEeiNqNyH9cEJTQ">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_FKlFsJaoEeigN9ezVapLOg">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_PHNG4JaoEeigN9ezVapLOg"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_ckYdsJaoEeigN9ezVapLOg">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_W7LZgJaoEeigN9ezVapLOg"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_Add-YIR1EeieNeA7SCF4pw" name="ClockDistribution">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CYKwgIR1EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_31TOsIR0EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_D-aVkIR1EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_1Rq0UIR0EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_4QKB4IR4EeieNeA7SCF4pw" name="RS485Bus" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_7IMmAIR4EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_0oVmoIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_9ImXgIR4EeieNeA7SCF4pw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_0oVmoIR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_VweBcJbKEeiCwuaD9XoHBw" name="SpacewireData" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_L-fCoJbNEeiCwuaD9XoHBw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_WHLkYIqtEei866vJLsXHTw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_MyggkJbNEeiCwuaD9XoHBw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_QhBNIIqtEei866vJLsXHTw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_Y3jHIJbKEeiCwuaD9XoHBw" name="SpacewireStrobe" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CDxbEJbPEeiYntJ7l1sd2A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_WHLkYIqtEei866vJLsXHTw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CsVP4JbPEeiYntJ7l1sd2A">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_QhBNIIqtEei866vJLsXHTw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_HHcXkJdDEeiaYrBn21CduQ" name="UARTData" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_G-47sJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_WHLkYIqtEei866vJLsXHTw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_ICixEJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_QhBNIIqtEei866vJLsXHTw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_BXEXkJdHEeiaYrBn21CduQ" name="UARTPPS" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_LvgLAJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_WHLkYIqtEei866vJLsXHTw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_MXeJ8JdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_QhBNIIqtEei866vJLsXHTw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_HXKn4JwgEeiONuETiyTzGw" name="SynchronousSerialData" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_KS4yIJwgEeiONuETiyTzGw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_ysvcoIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_K2CigJwgEeiONuETiyTzGw">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_quho4IR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_KMk8gJdDEeiaYrBn21CduQ" name="RSBAddress" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_1q7EEJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_ysvcoIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_2gXeUJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_quho4IR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_MfrAgJdDEeiaYrBn21CduQ" name="RSBCommand" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_7Rj8cJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_ysvcoIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_70OkoJdHEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_quho4IR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_OhDCYJdDEeiaYrBn21CduQ" name="RSBData" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_Ba3dAJdIEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_ysvcoIR4EeieNeA7SCF4pw"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_CKm34JdIEeiaYrBn21CduQ">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_quho4IR4EeieNeA7SCF4pw"/>
+    </end2>
+  </types>
+  <types xsi:type="efse:AbstractFunction" xmi:id="_T9JAICW4EemYo7gPt8jxrA" name="Configuration" specializes="_DR948Ne8EeiuAbYHHgCuKg">
+    <end1 xsi:type="efse:AbstractFunctionEnd" xmi:id="_WEfHICW4EemYo7gPt8jxrA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_Lxd_MCW4EemYo7gPt8jxrA"/>
+    </end1>
+    <end2 xsi:type="efse:AbstractFunctionEnd" xmi:id="_XxRZECW4EemYo7gPt8jxrA">
+      <endCircuit xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_Lxd_MCW4EemYo7gPt8jxrA"/>
+    </end2>
+  </types>
+</efse:Library>

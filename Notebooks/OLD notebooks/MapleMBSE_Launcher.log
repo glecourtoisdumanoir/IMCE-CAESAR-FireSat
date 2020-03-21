@@ -1,0 +1,20 @@
+﻿[INFO: Wed Nov 13 13:34:48 2019] Start to load MFSD DLL: C:\Program Files\MapleMBSE 2019\libmfsd.dll
+[INFO: Wed Nov 13 13:34:48 2019] MFSD successfully loaded.
+[INFO: Wed Nov 13 13:34:48 2019] Checking out a license of MapleMBSE in C:\Program Files\MapleMBSE 2019\license\MapleMBSE.dat.
+[INFO: Wed Nov 13 13:34:48 2019] MapleMBSE macro book: C:\Program Files\MapleMBSE 2019\AddIns\MapleMBSE.xlsm
+[INFO: Wed Nov 13 13:34:56 2019] EXCEL.EXE path: "C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE"
+[INFO: Wed Nov 13 13:34:56 2019] Reserved memory address space at 0x0000021E076A0000 (size=905MB)
+[INFO: Wed Nov 13 13:34:56 2019] Started the Excel process
+[INFO: Wed Nov 13 13:34:56 2019] Launching MapleMBSE...
+[INFO: Wed Nov 13 13:34:56 2019] Found XLMAIN window:3c03b0
+[INFO: Wed Nov 13 13:34:56 2019] Found XLMAIN window:a507d8
+[INFO: Wed Nov 13 13:34:57 2019] Found XLMAIN window:a507d8
+[INFO: Wed Nov 13 13:34:57 2019] Found XLMAIN window:a507d8
+[INFO: Wed Nov 13 13:34:57 2019] Found XLMAIN window:a507d8
+[INFO: Wed Nov 13 13:34:57 2019] Found XLMAIN window:a507d8
+[INFO: Wed Nov 13 13:34:57 2019] Found Excel7
+[INFO: Wed Nov 13 13:34:57 2019] Found NetUIHWND
+[INFO: Wed Nov 13 13:34:57 2019] Found Excel COM window:35085c
+[INFO: Wed Nov 13 13:34:57 2019] Close the remaining workbooks: 1
+[INFO: Wed Nov 13 13:35:06 2019] Checking out a license of MapleMBSETeamworkCloudAdapter in C:\Program Files\MapleMBSE 2019\license\MapleMBSETeamworkCloudAdapter.dat.
+[INFO: Wed Nov 13 13:35:47 2019] Terminating

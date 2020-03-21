@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efse:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_zHcmcIFpEeiNqNyH9cEJTQ" name="StandardAssemblies">
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_dUUcEOz7EeiHL-Kg88CNuw" name="BaseAssembly">
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_XCgLEGtzEemHtPmr9WeImA" name="Mass CBE" category="Mass" value="0.6" unit="kg"/>
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_kXYhgGtzEemHtPmr9WeImA" name="Mass MGA" category="Mass" unit="%"/>
+  </types>
+  <types xsi:type="efse:AbstractBank" xmi:id="_DOks8IFoEeiNqNyH9cEJTQ" name="PSSBank">
+    <ownedProperties xsi:type="efse:BooleanProperty" xmi:id="_DOks8YFoEeiNqNyH9cEJTQ" name="ganged" value="false"/>
+    <ownedProperties xsi:type="efse:EnumerationProperty" xmi:id="_Afva0IRrEeii-uyLKZ25Ug" name="behavior" value="Static">
+      <enumValues>Static</enumValues>
+      <enumValues>Pulsed</enumValues>
+      <enumValues>Critical</enumValues>
+      <enumValues>Safety</enumValues>
+    </ownedProperties>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNnoFpEeiNqNyH9cEJTQ" name="PRT" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNn4FpEeiNqNyH9cEJTQ" name="PRTout" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks_IFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNoIFpEeiNqNyH9cEJTQ" name="PRT1000-Ohm" specializes="_zHdNnoFpEeiNqNyH9cEJTQ"/>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNoYFpEeiNqNyH9cEJTQ" name="PRT100-Ohm" specializes="_zHdNnoFpEeiNqNyH9cEJTQ"/>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNooFpEeiNqNyH9cEJTQ" name="Heater" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNo4FpEeiNqNyH9cEJTQ" name="HeaterIn" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNpoFpEeiNqNyH9cEJTQ" name="PowerConverter" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNp4FpEeiNqNyH9cEJTQ" name="RawPowerIn" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNqIFpEeiNqNyH9cEJTQ" name="ConditionedPowerout" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_9YwvEISnEeiDRKm2VHcVlw" name="VMon" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_xld-cJzVEeiXPZI4GXmwWA" name="TMon" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks_IFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_pY3tcISMEeiEh-IQwBgHdw" name="HVPowerConverter" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_s91pAISMEeiEh-IQwBgHdw" name="rawPowerIn" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_xftRsISMEeiEh-IQwBgHdw" name="HVOut" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_VWJykIR3EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNrIFpEeiNqNyH9cEJTQ" name="PressureSensor" specializes="_dUUcEOz7EeiHL-Kg88CNuw"/>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNrYFpEeiNqNyH9cEJTQ" name="LatchValve" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_Kov1EITBEeiCueWEz-NsdQ" name="p" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_GbtM4ITBEeiCueWEz-NsdQ" name="SolenoidValve" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_Oq9GQITBEeiCueWEz-NsdQ" name="p" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNr4FpEeiNqNyH9cEJTQ" name="Dosimeter" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNsIFpEeiNqNyH9cEJTQ" name="m">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-IFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_Tl2S8ITBEeiCueWEz-NsdQ" name="Thermistor" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_VqbZ0ITBEeiCueWEz-NsdQ" name="m" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_frbWkIRyEeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNsYFpEeiNqNyH9cEJTQ" name="Battery" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNsoFpEeiNqNyH9cEJTQ" name="Terminal" direction="InOut">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_43mrYIPTEeiQc-oUOpW0_g"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_Tu2nQJaDEeiJKfsIgpDQGw" name="vmon" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_yn86sJpaEeiH8NMi8Wsl9w" name="ena" direction="Out" size="2">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-4FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_iebG0JzVEeiXPZI4GXmwWA" name="temps" direction="Out" size="2">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks_IFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNuIFpEeiNqNyH9cEJTQ" name="Antenna" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNuYFpEeiNqNyH9cEJTQ" name="Feed">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_GrcHEIR2EeieNeA7SCF4pw" name="Diplexer" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_JcZy0IR2EeieNeA7SCF4pw" name="feed">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_SD-FkIR2EeieNeA7SCF4pw" name="rx">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_YgTP0IR2EeieNeA7SCF4pw" name="tx">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_eFaToIR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_YoZTIIuNEeiTupaJHm4Zrw" name="Isolator" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_Z7xmkIuNEeiTupaJHm4Zrw" name="isolated" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_eFaToIR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_fw4YwIuNEeiTupaJHm4Zrw" name="open" direction="InOut">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_mLoz4IR1EeieNeA7SCF4pw"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_zHdNuoFpEeiNqNyH9cEJTQ" name="WaveguideTransferSwitch" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNu4FpEeiNqNyH9cEJTQ" name="P1">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNvIFpEeiNqNyH9cEJTQ" name="P2">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNvYFpEeiNqNyH9cEJTQ" name="T1">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zHdNvoFpEeiNqNyH9cEJTQ" name="T2">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF84FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_jWKGEIt8EeiTupaJHm4Zrw" name="GenericPlug" specializes="_dUUcEOz7EeiHL-Kg88CNuw"/>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_sw6u8JUBEeiHSuYUY4zw9A" name="TellTale" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_vO50UJUBEeiHSuYUY4zw9A" name="tt" direction="Out">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOks-4FoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+  <types xsi:type="efse:AbstractAssembly" xmi:id="_RIxHMJUBEeiHSuYUY4zw9A" name="Frangibolt" specializes="_dUUcEOz7EeiHL-Kg88CNuw">
+    <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_Ubc_8JUBEeiHSuYUY4zw9A" name="fire" direction="In">
+      <specializes xsi:type="efse:AbstractEndCircuit" href="ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+    </endCircuitGroups>
+  </types>
+</efse:Library>

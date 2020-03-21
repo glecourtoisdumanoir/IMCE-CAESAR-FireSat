@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efse:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_DOkF4IFoEeiNqNyH9cEJTQ" name="StandardEndCircuits">
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF4YFoEeiNqNyH9cEJTQ" name="Power"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF4oFoEeiNqNyH9cEJTQ" name="PowerIn" specializes="_DOkF4YFoEeiNqNyH9cEJTQ" direction="In">
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_DOkF44FoEeiNqNyH9cEJTQ" name="maxCurrent" value="0.0" unit="A"/>
+    <ownedProperties xsi:type="efse:EnumerationProperty" xmi:id="_wgYJUIVVEeiwkefGzltJ_A" name="loadType" value="Resistive">
+      <enumValues>Resistive</enumValues>
+      <enumValues>Other</enumValues>
+      <enumValues>Inductive</enumValues>
+      <enumValues>Capacitive</enumValues>
+      <enumValues>Constant Power</enumValues>
+    </ownedProperties>
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_55h6YI6zEeiV6Y3Li2rquA" name="maxPower" value="0.0" unit="W"/>
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_QAf7AOdoEeiWmNlWWuYo4g" name="effectiveResistance" unit="Ω"/>
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_-Y0wEO0BEeiwlZ9PXwPYig" name="Reference Temperature" unit="C"/>
+    <ownedProperties xsi:type="efse:StringProperty" xmi:id="_6enKEOdrEeiWmNlWWuYo4g" name="heaterBehavior"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF5IFoEeiNqNyH9cEJTQ" name="PowerOut" specializes="_DOkF4YFoEeiNqNyH9cEJTQ" direction="Out">
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_DOkF5YFoEeiNqNyH9cEJTQ" name="rating" unit="A"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_43mrYIPTEeiQc-oUOpW0_g" name="PowerInOut" specializes="_DOkF4YFoEeiNqNyH9cEJTQ" direction="InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_VWJykIR3EeieNeA7SCF4pw" name="HVPowerOut" specializes="_DOkF4YFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_Y7mPQIR3EeieNeA7SCF4pw" name="HVPowerIn" specializes="_DOkF4YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_TQ9vIPjgEeiH06FvfH4Cgw" name="PSSSwitch" specializes="_DOkF5IFoEeiNqNyH9cEJTQ" direction="Out">
+    <ownedProperties xsi:type="efse:BooleanProperty" xmi:id="_bldU4PjgEeiH06FvfH4Cgw" name="ganged" value="false"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF5oFoEeiNqNyH9cEJTQ" name="2ASwitch" specializes="_TQ9vIPjgEeiH06FvfH4Cgw" direction="Out">
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_DOkF54FoEeiNqNyH9cEJTQ" name="rating" value="2.0" unit="A"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF6IFoEeiNqNyH9cEJTQ" name="5ASwitch" specializes="_TQ9vIPjgEeiH06FvfH4Cgw" direction="Out">
+    <annotations xsi:type="efse:Annotation" xmi:id="_HKrZECMtEemGFLpsgBI67Q" key="gangedType" value="10ASwitch"/>
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_DOkF6YFoEeiNqNyH9cEJTQ" name="rating" value="5.0" unit="A"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_P-wQMPgfEeiJNrJNO2Ri7g" name="10ASwitch" specializes="_TQ9vIPjgEeiH06FvfH4Cgw" direction="Out">
+    <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_WEA-QPgfEeiJNrJNO2Ri7g" name="rating" value="10.0" unit="A"/>
+  </types>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF7YFoEeiNqNyH9cEJTQ" name="MeasurementIn" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF7oFoEeiNqNyH9cEJTQ" name="MeasurementOut" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_4mA_EJsfEeiDsuTMhhy3_A" name="CommandIn" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_7XtqoJsfEeiDsuTMhhy3_A" name="CommandOut" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF74FoEeiNqNyH9cEJTQ" name="PRT4in" specializes="_DOks9IFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF8IFoEeiNqNyH9cEJTQ" name="PRT2in" specializes="_DOks9IFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF8YFoEeiNqNyH9cEJTQ" name="ThermistorIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_frbWkIRyEeieNeA7SCF4pw" name="ThermistorOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF8oFoEeiNqNyH9cEJTQ" name="DiscreteMeasurementIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOkF84FoEeiNqNyH9cEJTQ" name="RadioFeed"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_eFaToIR1EeieNeA7SCF4pw" name="RadioFeedIn" specializes="_DOkF84FoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_iyCa0IR1EeieNeA7SCF4pw" name="RadioFeedOut" specializes="_DOkF84FoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_mLoz4IR1EeieNeA7SCF4pw" name="RadioFeedInOut" specializes="_DOkF84FoEeiNqNyH9cEJTQ" direction="InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks9IFoEeiNqNyH9cEJTQ" name="PRTIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks9YFoEeiNqNyH9cEJTQ" name="VoltageMeasurementIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_iejOABRHEemaJI6aVZby9Q" name="VoltageMeasurementPassiveIn" specializes="_DOks9YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_pmPpcBRHEemaJI6aVZby9Q" name="VoltageMeasurementActiveIn" specializes="_DOks9YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks9oFoEeiNqNyH9cEJTQ" name="CurrentMeasurementIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks94FoEeiNqNyH9cEJTQ" name="DosimeterIn" specializes="_DOkF7YFoEeiNqNyH9cEJTQ" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks-IFoEeiNqNyH9cEJTQ" name="DosimeterOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks-YFoEeiNqNyH9cEJTQ" name="CurrentMeasurementOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks-oFoEeiNqNyH9cEJTQ" name="VoltageMeasurementOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_y-P6oBRHEemaJI6aVZby9Q" name="VoltageMeasurementPassiveOut" specializes="_DOks-oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_3tWuEBRHEemaJI6aVZby9Q" name="VoltageMeasurementActiveOut" specializes="_DOks-oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks-4FoEeiNqNyH9cEJTQ" name="DiscreteMeasurementOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_DOks_IFoEeiNqNyH9cEJTQ" name="PRTOut" specializes="_DOkF7oFoEeiNqNyH9cEJTQ" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_Yb3jIIRzEeieNeA7SCF4pw" name="DiscreteCommandIn" specializes="_4mA_EJsfEeiDsuTMhhy3_A" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_dk2PIIRzEeieNeA7SCF4pw" name="DiscreteCommandOut" specializes="_7XtqoJsfEeiDsuTMhhy3_A" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_PHNG4JaoEeigN9ezVapLOg" name="VoltageCommandOut" specializes="_7XtqoJsfEeiDsuTMhhy3_A" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_W7LZgJaoEeigN9ezVapLOg" name="VoltageCommandIn" specializes="_4mA_EJsfEeiDsuTMhhy3_A" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_1Rq0UIR0EeieNeA7SCF4pw" name="ClockIn" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_31TOsIR0EeieNeA7SCF4pw" name="ClockOut" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_HpXdAIR4EeieNeA7SCF4pw" name="MIL1553" direction="InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_quho4IR4EeieNeA7SCF4pw" name="RS422In" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_ysvcoIR4EeieNeA7SCF4pw" name="RS422Out" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_0oVmoIR4EeieNeA7SCF4pw" name="RS422InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_QhBNIIqtEei866vJLsXHTw" name="LVDSIn" direction="In"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_WHLkYIqtEei866vJLsXHTw" name="LVDSOut" direction="Out"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_tQBzsJseEeiDsuTMhhy3_A" name="OpticalInout" direction="InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_2d5QgJzWEeiXPZI4GXmwWA" name="EthernetInOut" direction="InOut"/>
+  <types xsi:type="efse:AbstractEndCircuit" xmi:id="_Lxd_MCW4EemYo7gPt8jxrA" name="ConfigPort" direction="InOut"/>
+</efse:Library>

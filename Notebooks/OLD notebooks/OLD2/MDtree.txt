@@ -1,0 +1,86 @@
+                                                                            levelName
+1  FIREsat space segment                                                             
+2   ¦--Attitude Determination and Control System and Guidance, Navigation and Control
+3   ¦   ¦--ADCS Control Electronics                                                  
+4   ¦   ¦--Earth Sensor                                                              
+5   ¦   ¦--GPS Receiver                                                              
+6   ¦   ¦--Magnetorquers                                                             
+7   ¦   ¦--Reaction Wheels                                                           
+8   ¦   °--Sun Sensor                                                                
+9   ¦--Electrical Power System                                                       
+10  ¦   °--Battery (24 cells)                                                        
+11  ¦--Thermal Control                                                               
+12  ¦   °--Coatings and Blankets                                                     
+13  ¦--Command and Data Handling                                                     
+14  ¦   ¦--Data Harness                                                              
+15  ¦   ¦--Launch Vehicle Adapter                                                    
+16  ¦   ¦--Primary Flight Computer                                                   
+17  ¦   ¦--Primary Structure                                                         
+18  ¦   ¦--Secondary Structure                                                       
+19  ¦   ¦--Separation System                                                         
+20  ¦   °--Solar Array Drive Assemblies                                              
+21  ¦--Structures and Mechanisms                                                     
+22  ¦   ¦--Electrical Power System Harness                                           
+23  ¦   ¦--Power Control Unit                                                        
+24  ¦   ¦--Regulators and Converters                                                 
+25  ¦   °--Solar Arrays                                                              
+26  ¦--PROpulsion                                                                    
+27  ¦   ¦--Helium Fill and Drain Valve                                               
+28  ¦   ¦--Helium Regulator                                                          
+29  ¦   ¦--Helium Tank Isolation Valve                                               
+30  ¦   ¦--Lines and Fittings (6.35mm outside diameter line)                         
+31  ¦   ¦--Mixed Oxides of Nitrogen fill and drain valve                             
+32  ¦   ¦--Mixed Oxides of Nitrogen Tank Isolation Valve                             
+33  ¦   ¦--Orbit Control Engine                                                      
+34  ¦   ¦--PreSsurant Tank (including gas)                                           
+35  ¦   ¦--ProPellant Tank                                                           
+36  ¦   ¦--Propulsion Electronics                                                    
+37  ¦   °--Reaction Control Engines                                                  
+38  °--COMmunications                                                                
+39      ¦--Receive Antenna                                                           
+40      ¦--Receiver                                                                  
+41      ¦--Transmit Antenna                                                          
+42      °--Transmitter (including high power antenna)                                
+   level
+1      1
+2      2
+3      3
+4      3
+5      3
+6      3
+7      3
+8      3
+9      2
+10     3
+11     2
+12     3
+13     2
+14     3
+15     3
+16     3
+17     3
+18     3
+19     3
+20     3
+21     2
+22     3
+23     3
+24     3
+25     3
+26     2
+27     3
+28     3
+29     3
+30     3
+31     3
+32     3
+33     3
+34     3
+35     3
+36     3
+37     3
+38     2
+39     3
+40     3
+41     3
+42     3

@@ -1,0 +1,432 @@
+!!!NEW OSGiBridge SESSION===================================================
+!!!STARTING AT 11/13/19 13:29:40
+[INFO: 13:29:40] INFO:  Log level is set to 1.
+[INFO: 13:29:40] INFO: Dumping options...
+[INFO: 13:29:40] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:29:40] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:29:40] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:29:40] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:29:40] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:29:40] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:29:40] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:29:40] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:29:40] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:29:40] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:29:40] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:29:40] INFO: Done dumping options.
+[INFO: 13:29:40] INFO: Loading options at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:29:40] INFO: Loading ini file at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:29:40] INFO:  Setting default option: USERPROFILE = C:\Users\manoir
+[INFO: 13:29:40] INFO:  Setting default option: ALLUSERSPROFILE = C:\ProgramData
+[INFO: 13:29:40] INFO:  Setting default option: platformPath = C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:29:40] INFO:  Setting default option: starterClass = org.eclipse.core.runtime.adaptor.EclipseStarter
+[INFO: 13:29:40] INFO:  Log level is set to 1.
+[INFO: 13:29:40] INFO: Dumping options...
+[INFO: 13:29:40] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:29:40] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:29:40] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:29:40] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:29:40] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:29:40] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:29:40] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:29:40] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:29:40] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:29:40] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:29:40] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:29:40] INFO: Done dumping options.
+[INFO: 13:29:40] INFO: Use Java VM specified by JAVA_HOME: C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221
+[ERROR:13:29:40] ERROR: Unable to find Java VM DLL at C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221.
+[INFO: 13:29:40] INFO: Found Java VM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:29:40] INFO: Loading JVM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:29:40] INFO: Dumping Java startup options: 
+[INFO: 13:29:40] INFO : Try to find startup JAR file: C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_*.jar
+[INFO: 13:29:40] INFO : Startup JAR file has been resolved to : C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar[INFO: 13:29:40] INFO: -vmargs: 
+[INFO: 13:29:40] INFO:  -Xmx512m
+[INFO: 13:29:40] INFO:  -Dosgi.install.area=C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:29:40] INFO:  -Dosgi.configuration.area=C:\ProgramData\MapleMBSE\configuration
+[INFO: 13:29:40] INFO:  -Dosgi.instance.area=@none
+[INFO: 13:29:40] INFO:  -Dosgi.parentClassloader=app
+[INFO: 13:29:40] INFO:  -Dosgi.contextClassLoaderParent=app
+[INFO: 13:29:40] INFO:  -Dosgi.compatibility.bootdelegation=false
+[INFO: 13:29:40] INFO:  -Dosgi.noShutdown=true
+[INFO: 13:29:40] INFO:  -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+[INFO: 13:29:40] INFO:  -Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+[INFO: 13:29:40] INFO:  -Declipse.ignoreApp=true
+[INFO: 13:29:40] INFO:  -Dcom.maplesoft.maplembse.twc.adapter.certs=C:\Program Files\MapleMBSE 2019\OSGiBridge/../certs
+[INFO: 13:29:40] INFO:  -Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER
+[INFO: 13:29:40] INFO:  -Djava.class.path=C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar
+[INFO: 13:29:40] INFO:  -Dcom.ibm.trinity.osgibridge.log=C:\Users\manoir\MapleMBSE_OSGiBridge.log
+[INFO: 13:29:40] INFO: Starting Java VM...
+[INFO: 13:29:40] INFO: Successfully Opened Event. 0
+[INFO: 13:29:40] INFO: Successfully released memory.
+[INFO: 13:29:40] INFO: Starting OSGi framework...
+[INFO: 13:29:40] INFO:  platformCommandLine =  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:29:40] INFO: Parsing command line:  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:29:40] INFO:  Dumping command line arguments. N = 9
+[INFO: 13:29:40] INFO:     args[0]: -os
+[INFO: 13:29:40] INFO:     args[1]: win32
+[INFO: 13:29:40] INFO:     args[2]: -ws
+[INFO: 13:29:40] INFO:     args[3]: win32
+[INFO: 13:29:40] INFO:     args[4]: -arch
+[INFO: 13:29:40] INFO:     args[5]: x86_64
+[INFO: 13:29:40] INFO:     args[6]: -nosplash
+[INFO: 13:29:40] INFO:     args[7]: -refresh
+[INFO: 13:29:40] INFO:     args[8]: -noExit
+[INFO: 13:29:56] INFO: OSGi framework started.
+[INFO: 13:29:56] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:29:56] INFO: Getting OSGi service reference to com.maplesoft.maplembse.common.application.Activator.
+[INFO: 13:29:56] INFO: Ensuring bundle...: com.maplesoft.maplembse.common.application
+[WARN: 13:29:56] WARN : Bundle not found: com.maplesoft.maplembse.common.application
+[INFO: 13:29:56] INFO: Failed to get OSGi service reference: com.maplesoft.maplembse.common.application.Activator.
+[ERROR:13:29:56] ERROR: [Service Bridge] Failed to connect to service. (null)
+[INFO: 13:29:56] INFO: [Service Bridge] Shutting down OSGi platform...
+[INFO: 13:29:56] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:29:56] INFO: Terminating OSGi framework...
+[INFO: 13:29:56] INFO: OSGi Framework terminated.
+[INFO: 13:29:56] INFO: [Service Bridge] Disconnecting from service...
+!!!NEW OSGiBridge SESSION===================================================
+!!!STARTING AT 11/13/19 13:32:35
+[INFO: 13:32:35] INFO:  Log level is set to 1.
+[INFO: 13:32:35] INFO: Dumping options...
+[INFO: 13:32:35] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:32:35] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:32:35] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:32:35] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:32:35] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:32:35] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:32:35] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:32:35] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:32:35] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:32:35] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:32:35] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:32:35] INFO: Done dumping options.
+[INFO: 13:32:35] INFO: Loading options at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:32:35] INFO: Loading ini file at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:32:35] INFO:  Setting default option: USERPROFILE = C:\Users\manoir
+[INFO: 13:32:35] INFO:  Setting default option: ALLUSERSPROFILE = C:\ProgramData
+[INFO: 13:32:35] INFO:  Setting default option: platformPath = C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:32:35] INFO:  Setting default option: starterClass = org.eclipse.core.runtime.adaptor.EclipseStarter
+[INFO: 13:32:35] INFO:  Log level is set to 1.
+[INFO: 13:32:35] INFO: Dumping options...
+[INFO: 13:32:35] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:32:35] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:32:35] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:32:35] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:32:35] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:32:35] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:32:35] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:32:35] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:32:35] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:32:35] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:32:35] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:32:35] INFO: Done dumping options.
+[INFO: 13:32:35] INFO: Use Java VM specified by JAVA_HOME: C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221
+[ERROR:13:32:35] ERROR: Unable to find Java VM DLL at C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221.
+[INFO: 13:32:35] INFO: Found Java VM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:32:35] INFO: Loading JVM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:32:35] INFO: Dumping Java startup options: 
+[INFO: 13:32:35] INFO : Try to find startup JAR file: C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_*.jar
+[INFO: 13:32:35] INFO : Startup JAR file has been resolved to : C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar[INFO: 13:32:35] INFO: -vmargs: 
+[INFO: 13:32:35] INFO:  -Xmx512m
+[INFO: 13:32:35] INFO:  -Dosgi.install.area=C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:32:35] INFO:  -Dosgi.configuration.area=C:\ProgramData\MapleMBSE\configuration
+[INFO: 13:32:35] INFO:  -Dosgi.instance.area=@none
+[INFO: 13:32:35] INFO:  -Dosgi.parentClassloader=app
+[INFO: 13:32:35] INFO:  -Dosgi.contextClassLoaderParent=app
+[INFO: 13:32:35] INFO:  -Dosgi.compatibility.bootdelegation=false
+[INFO: 13:32:35] INFO:  -Dosgi.noShutdown=true
+[INFO: 13:32:35] INFO:  -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+[INFO: 13:32:35] INFO:  -Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+[INFO: 13:32:35] INFO:  -Declipse.ignoreApp=true
+[INFO: 13:32:35] INFO:  -Dcom.maplesoft.maplembse.twc.adapter.certs=C:\Program Files\MapleMBSE 2019\OSGiBridge/../certs
+[INFO: 13:32:35] INFO:  -Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER
+[INFO: 13:32:35] INFO:  -Djava.class.path=C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar
+[INFO: 13:32:35] INFO:  -Dcom.ibm.trinity.osgibridge.log=C:\Users\manoir\MapleMBSE_OSGiBridge.log
+[INFO: 13:32:35] INFO: Starting Java VM...
+[INFO: 13:32:35] INFO: Successfully Opened Event. FA0
+[INFO: 13:32:35] INFO: Successfully released memory.
+[INFO: 13:32:35] INFO: Starting OSGi framework...
+[INFO: 13:32:35] INFO:  platformCommandLine =  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:32:35] INFO: Parsing command line:  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:32:35] INFO:  Dumping command line arguments. N = 9
+[INFO: 13:32:35] INFO:     args[0]: -os
+[INFO: 13:32:35] INFO:     args[1]: win32
+[INFO: 13:32:35] INFO:     args[2]: -ws
+[INFO: 13:32:35] INFO:     args[3]: win32
+[INFO: 13:32:35] INFO:     args[4]: -arch
+[INFO: 13:32:35] INFO:     args[5]: x86_64
+[INFO: 13:32:35] INFO:     args[6]: -nosplash
+[INFO: 13:32:35] INFO:     args[7]: -refresh
+[INFO: 13:32:35] INFO:     args[8]: -noExit
+[INFO: 13:32:38] INFO: OSGi framework started.
+[INFO: 13:32:38] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:32:38] INFO: Getting OSGi service reference to com.ibm.trinity.frontend.TrinityService.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Searching for method [getMessage] with args [VT_BSTR, VT_BSTR, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:32:38] INFO: MethodId [0x18451ad0] is retrived and cached for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: getMessage...
+[INFO: 13:32:38] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:32:38] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: clearOptions...
+[INFO: 13:32:38] INFO: Searching for method [clearOptions] with args [].
+[INFO: 13:32:38] INFO: MethodId [0x18451ad8] is retrived and cached for method [clearOptions].
+[INFO: 13:32:38] INFO: Method [clearOptions] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: setOption...
+[INFO: 13:32:38] INFO: Searching for method [setOption] with args [VT_BSTR, VT_BSTR, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:32:38] INFO: MethodId [0x18451ae0] is retrived and cached for method [setOption].
+[INFO: 13:32:38] INFO: Method [setOption] invoked successfully.
+[INFO: 13:32:38] INFO: Invoking service method: startTrinity4...
+[INFO: 13:32:38] INFO: Searching for method [startTrinity4] with args [VT_DISPATCH, VT_DISPATCH, VT_BSTR, VT_BSTR, VT_BSTR].
+[INFO: 13:32:38] INFO: MethodId [0x18451ae8] is retrived and cached for method [startTrinity4].
+[INFO: 13:34:14] INFO: Method [startTrinity4] invoked successfully.
+[INFO: 13:34:14] INFO: Invoking service method: hasError...
+[INFO: 13:34:14] INFO: Searching for method [hasError] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:34:14] INFO: MethodId [0x18451af0] is retrived and cached for method [hasError].
+[INFO: 13:34:14] INFO: Method [hasError] invoked successfully.
+[INFO: 13:34:14] INFO: Invoking service method: getLastError...
+[INFO: 13:34:14] INFO: Searching for method [getLastError] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:34:14] INFO: MethodId [0x18451af8] is retrived and cached for method [getLastError].
+[INFO: 13:34:14] INFO: Method [getLastError] invoked successfully.
+[INFO: 13:34:14] INFO: Invoking service method: getMessage...
+[INFO: 13:34:14] INFO: Using cached methodId [0x18451ad0] for method [getMessage].
+[INFO: 13:34:14] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:34:16] INFO: Invoking service method: stopTrinity...
+[INFO: 13:34:16] INFO: Searching for method [stopTrinity] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:34:16] INFO: MethodId [0x18451b00] is retrived and cached for method [stopTrinity].
+[INFO: 13:34:17] INFO: Method [stopTrinity] invoked successfully.
+[INFO: 13:34:44] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:34:44] INFO: [Service Bridge] Disconnecting from service...
+!!!NEW OSGiBridge SESSION===================================================
+!!!STARTING AT 11/13/19 13:34:58
+[INFO: 13:34:58] INFO:  Log level is set to 1.
+[INFO: 13:34:58] INFO: Dumping options...
+[INFO: 13:34:58] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:34:58] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:34:58] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:34:58] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:34:58] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:34:58] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:34:58] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:34:58] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:34:58] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:34:58] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:34:58] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:34:58] INFO: Done dumping options.
+[INFO: 13:34:58] INFO: Loading options at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:34:58] INFO: Loading ini file at C:\Program Files\MapleMBSE 2019\OSGiBridge.ini.
+[INFO: 13:34:58] INFO:  Setting default option: USERPROFILE = C:\Users\manoir
+[INFO: 13:34:58] INFO:  Setting default option: ALLUSERSPROFILE = C:\ProgramData
+[INFO: 13:34:58] INFO:  Setting default option: platformPath = C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:34:58] INFO:  Setting default option: starterClass = org.eclipse.core.runtime.adaptor.EclipseStarter
+[INFO: 13:34:58] INFO:  Log level is set to 1.
+[INFO: 13:34:58] INFO: Dumping options...
+[INFO: 13:34:58] INFO:   (option, value) = (platformPath, C:\Program Files\MapleMBSE 2019\OSGiBridge)
+[INFO: 13:34:58] INFO:   (option, value) = (starterJar, plugins\org.eclipse.osgi_*.jar)
+[INFO: 13:34:58] INFO:   (option, value) = (vmargs, -Xmx512m
+-Dosgi.install.area=@platform.path
+-Dosgi.configuration.area=@allusersprofile.path\MapleMBSE\configuration
+-Dosgi.instance.area=@none
+-Dosgi.parentClassloader=app
+-Dosgi.contextClassLoaderParent=app
+-Dosgi.compatibility.bootdelegation=false
+-Dosgi.noShutdown=true
+-Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+-Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+-Declipse.ignoreApp=true
+-Dcom.maplesoft.maplembse.twc.adapter.certs=@platform.path/../certs
+-Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER)
+[INFO: 13:34:58] INFO:   (option, value) = (launcherClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:34:58] INFO:   (option, value) = (log, MapleMBSE_OSGiBridge.log)
+[INFO: 13:34:58] INFO:   (option, value) = (noDestroyJavaVM, true)
+[INFO: 13:34:58] INFO:   (option, value) = (ALLUSERSPROFILE, C:\ProgramData)
+[INFO: 13:34:58] INFO:   (option, value) = (USERPROFILE, C:\Users\manoir)
+[INFO: 13:34:58] INFO:   (option, value) = (logLevel, 1)
+[INFO: 13:34:58] INFO:   (option, value) = (starterClass, org.eclipse.core.runtime.adaptor.EclipseStarter)
+[INFO: 13:34:58] INFO:   (option, value) = (platformCommandLine,  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean)
+[INFO: 13:34:58] INFO: Done dumping options.
+[INFO: 13:34:58] INFO: Use Java VM specified by JAVA_HOME: C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221
+[ERROR:13:34:58] ERROR: Unable to find Java VM DLL at C:\Program Files\Java\jdk1.8.0_221\bin\jre1.8.0_221.
+[INFO: 13:34:58] INFO: Found Java VM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:34:58] INFO: Loading JVM at C:\Program Files\Java\jre1.8.0_231\bin\server\jvm.dll.
+[INFO: 13:34:58] INFO: Dumping Java startup options: 
+[INFO: 13:34:58] INFO : Try to find startup JAR file: C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_*.jar
+[INFO: 13:34:58] INFO : Startup JAR file has been resolved to : C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar[INFO: 13:34:58] INFO: -vmargs: 
+[INFO: 13:34:58] INFO:  -Xmx512m
+[INFO: 13:34:58] INFO:  -Dosgi.install.area=C:\Program Files\MapleMBSE 2019\OSGiBridge
+[INFO: 13:34:58] INFO:  -Dosgi.configuration.area=C:\ProgramData\MapleMBSE\configuration
+[INFO: 13:34:58] INFO:  -Dosgi.instance.area=@none
+[INFO: 13:34:58] INFO:  -Dosgi.parentClassloader=app
+[INFO: 13:34:58] INFO:  -Dosgi.contextClassLoaderParent=app
+[INFO: 13:34:58] INFO:  -Dosgi.compatibility.bootdelegation=false
+[INFO: 13:34:58] INFO:  -Dosgi.noShutdown=true
+[INFO: 13:34:58] INFO:  -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true
+[INFO: 13:34:58] INFO:  -Dorg.osgi.framework.bootdelegation=sun.*,com.ms.*,com.ibm.*,com.sun.*,org.w3c.*,org.xml.*,javax.*,org.apache.xerces.*
+[INFO: 13:34:58] INFO:  -Declipse.ignoreApp=true
+[INFO: 13:34:58] INFO:  -Dcom.maplesoft.maplembse.twc.adapter.certs=C:\Program Files\MapleMBSE 2019\OSGiBridge/../certs
+[INFO: 13:34:58] INFO:  -Dcom.ibm.trinity.rhapsody.ecore.IntegrationMode=DLL_SERVER
+[INFO: 13:34:58] INFO:  -Djava.class.path=C:\Program Files\MapleMBSE 2019\OSGiBridge\plugins\org.eclipse.osgi_3.13.100.v20180827-1536.jar
+[INFO: 13:34:58] INFO:  -Dcom.ibm.trinity.osgibridge.log=C:\Users\manoir\MapleMBSE_OSGiBridge.log
+[INFO: 13:34:58] INFO: Starting Java VM...
+[INFO: 13:34:58] INFO: Successfully Opened Event. D84
+[INFO: 13:34:58] INFO: Successfully released memory.
+[INFO: 13:34:59] INFO: Starting OSGi framework...
+[INFO: 13:34:59] INFO:  platformCommandLine =  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:34:59] INFO: Parsing command line:  -os win32 -ws win32 -arch x86_64 -nosplash -refresh -noExit -clean
+[INFO: 13:34:59] INFO:  Dumping command line arguments. N = 9
+[INFO: 13:34:59] INFO:     args[0]: -os
+[INFO: 13:34:59] INFO:     args[1]: win32
+[INFO: 13:34:59] INFO:     args[2]: -ws
+[INFO: 13:34:59] INFO:     args[3]: win32
+[INFO: 13:34:59] INFO:     args[4]: -arch
+[INFO: 13:34:59] INFO:     args[5]: x86_64
+[INFO: 13:34:59] INFO:     args[6]: -nosplash
+[INFO: 13:34:59] INFO:     args[7]: -refresh
+[INFO: 13:34:59] INFO:     args[8]: -noExit
+[INFO: 13:35:03] INFO: OSGi framework started.
+[INFO: 13:35:03] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:35:03] INFO: Getting OSGi service reference to com.ibm.trinity.frontend.TrinityService.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Searching for method [getMessage] with args [VT_BSTR, VT_BSTR, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:35:03] INFO: MethodId [0x1c71afb0] is retrived and cached for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: getMessage...
+[INFO: 13:35:03] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:03] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: clearOptions...
+[INFO: 13:35:03] INFO: Searching for method [clearOptions] with args [].
+[INFO: 13:35:03] INFO: MethodId [0x1c71afb8] is retrived and cached for method [clearOptions].
+[INFO: 13:35:03] INFO: Method [clearOptions] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: setOption...
+[INFO: 13:35:03] INFO: Searching for method [setOption] with args [VT_BSTR, VT_BSTR, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:35:03] INFO: MethodId [0x1c71afc0] is retrived and cached for method [setOption].
+[INFO: 13:35:03] INFO: Method [setOption] invoked successfully.
+[INFO: 13:35:03] INFO: Invoking service method: startTrinity4...
+[INFO: 13:35:03] INFO: Searching for method [startTrinity4] with args [VT_DISPATCH, VT_DISPATCH, VT_BSTR, VT_BSTR, VT_BSTR].
+[INFO: 13:35:03] INFO: MethodId [0x1c71afc8] is retrived and cached for method [startTrinity4].
+[INFO: 13:35:10] INFO: Method [startTrinity4] invoked successfully.
+[INFO: 13:35:10] INFO: Invoking service method: hasError...
+[INFO: 13:35:10] INFO: Searching for method [hasError] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:35:10] INFO: MethodId [0x1c71afd0] is retrived and cached for method [hasError].
+[INFO: 13:35:10] INFO: Method [hasError] invoked successfully.
+[INFO: 13:35:10] INFO: Invoking service method: getLastError...
+[INFO: 13:35:10] INFO: Searching for method [getLastError] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:35:10] INFO: MethodId [0x1c71afd8] is retrived and cached for method [getLastError].
+[INFO: 13:35:10] INFO: Method [getLastError] invoked successfully.
+[INFO: 13:35:10] INFO: Invoking service method: getMessage...
+[INFO: 13:35:10] INFO: Using cached methodId [0x1c71afb0] for method [getMessage].
+[INFO: 13:35:10] INFO: Method [getMessage] invoked successfully.
+[INFO: 13:35:12] INFO: Invoking service method: stopTrinity...
+[INFO: 13:35:12] INFO: Searching for method [stopTrinity] with args [VT_DISPATCH, VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted), VT_ERROR (omitted)].
+[INFO: 13:35:12] INFO: MethodId [0x1c71afe0] is retrived and cached for method [stopTrinity].
+[INFO: 13:35:13] INFO: Method [stopTrinity] invoked successfully.
+[INFO: 13:35:32] INFO: [Service Bridge] Disconnecting from service...
+[INFO: 13:35:32] INFO: [Service Bridge] Disconnecting from service...

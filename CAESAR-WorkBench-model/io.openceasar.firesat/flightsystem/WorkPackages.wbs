@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efse:WorkBreakdownRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_S32GEPmdEemLi4R2chb0Fw" name="WorkPackages">
+  <workPackages xsi:type="efse:WorkPackage" xmi:id="_XrY4IPmeEemLi4R2chb0Fw" name="Firesat project">
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_emclwPmeEemLi4R2chb0Fw" name="WP5"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_gfTk0PmeEemLi4R2chb0Fw" name="WP6.4.10"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_idP4MPmeEemLi4R2chb0Fw" name="WP6.4.4"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_joPEoPmeEemLi4R2chb0Fw" name="WP6.4.5"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_k9jRwPmeEemLi4R2chb0Fw" name="WP6.4.6"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_mNyxoPmeEemLi4R2chb0Fw" name="WP6.4.7"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_rILoAPmeEemLi4R2chb0Fw" name="WP6.4.8"/>
+    <workPackages xsi:type="efse:WorkPackage" xmi:id="_suI5MPmeEemLi4R2chb0Fw" name="WP6.4.9"/>
+  </workPackages>
+</efse:WorkBreakdownRoot>

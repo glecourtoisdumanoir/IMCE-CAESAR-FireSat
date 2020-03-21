@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="ASCII"?>
+<efse:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_7aifMH8SEeixEPdCsclxDg" name="Firesat">
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_wZaNoJOvEemXD4A3fC9Vag" name="ADCS and GNC" state="Baseline" acronym="GNC" number="2007" massLimit="9.74">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_axqPoK5qEem6ANr7eI5-jw" name="Magnetometer" state="Baseline" acronym="2007Magnetom" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_RK1icPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_9WWboK5-Eem6ANr7eI5-jw" name="Mass CBE" value="0.85"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_pBUt4PXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_pBUt4fXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_dfXMAK5qEem6ANr7eI5-jw" name="Reaction wheel 4" state="Baseline" acronym="2007RW4/4" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_A36GgPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_-O2J4K5-Eem6ANr7eI5-jw" name="Mass CBE" value="0.1975"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_sb9owPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_sb9owfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_gbRjgK5qEem6ANr7eI5-jw" name="GPS antenna" state="Baseline" acronym="2007GPSA" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_U5ovcPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_-_rw8K5-Eem6ANr7eI5-jw" name="Mass CBE" value="0.25"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_uJHuIPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_uJHuIfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_IvjDIK5sEem6ANr7eI5-jw" name="GPS receiver unit" state="Baseline" acronym="2007GPSRU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_mVSuAPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="__dAmIK5-Eem6ANr7eI5-jw" name="Mass CBE" value="1.0"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_uzVv0PXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_uzVv0fXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_PQQXEK5sEem6ANr7eI5-jw" name="ADCS electronics unit" state="Baseline" acronym="2007ADCSEU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_nVSycPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_ANmVkK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.0"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_vwIvQPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_vwIvQfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_TF5y8K5sEem6ANr7eI5-jw" name="Magnetorquer 1" state="Baseline" acronym="2007Magnetor-1" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_oJP-8PX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_A7Qs0K5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.5"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_wagh8PXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_wagh8fXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_xVpkgK5rEem6ANr7eI5-jw" name="Earth sensor" state="Baseline" acronym="2007ES" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_2s5OkPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_CTRBkK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.75"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zz6twPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_zz6twfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_vARBgK5rEem6ANr7eI5-jw" name="Sun sensor" state="Baseline" acronym="2007SS" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_10zwAPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_BjcHIK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.6"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_zNQ9cPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_zNQ9cfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_bwRmYOnmEemza_JiiW2ylA" name="Reaction wheel 1" state="Baseline" acronym="2007RW1/4" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_08_zsPX-EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_harEMBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.1975"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_p85lUPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_p85lUfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_fWeRAOnmEemza_JiiW2ylA" name="Reaction wheel 2" state="Baseline" acronym="2007RW2/4" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_94P3cPX-EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_h0X9oBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.1975"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_qubI4PXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_qubI4fXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_hCPPQOnmEemza_JiiW2ylA" name="Reaction wheel 3" state="Baseline" acronym="2007RW3/4" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="__GS-8PX-EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_iMQSIBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.1975"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_rVzR8PXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_rVzR8fXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_pj35IOnmEemza_JiiW2ylA" name="Magnetorquer 2" state="Baseline" acronym="2007Magnetor-2" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_o72gkPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_kb1vIBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_x4lpgPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_x4lpgfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_qpUeQOnmEemza_JiiW2ylA" name="Magnetorquer 3" state="Baseline" acronym="2007Magnetor-3" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_pvGicPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_kvYWMBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_ydxaMPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_ydxaMfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_AW36cJOxEemXD4A3fC9Vag" name="Command and data handling" state="Baseline" acronym="CDH" number="2006" massLimit="38.07">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_ALVmYK5sEem6ANr7eI5-jw" name="Primary flight computer unit" state="Baseline" acronym="2006PFCU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_xVaMgPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_dpucYK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.35"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_mIS00PX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_mIS00fX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_ze0s8K5qEem6ANr7eI5-jw" name="Launch vehicle adapter" state="Baseline" acronym="2006LVA" parentAssembly="_8OfBMK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_ee5J0K5_Eem6ANr7eI5-jw" name="Mass CBE" value="5.0"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_23bAcK5qEem6ANr7eI5-jw" name="Separation system" state="Baseline" acronym="2006SS" parentAssembly="_8OfBMK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_0NvrkPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_e_6zQK5_Eem6ANr7eI5-jw" name="Mass CBE" value="3.0"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_niIVkPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_niIVkfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_8OfBMK5pEem6ANr7eI5-jw" name="Launch vehicle interface module" state="Baseline" acronym="2006LVIM" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw" parts="_ze0s8K5qEem6ANr7eI5-jw _23bAcK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_zbiLgPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_mwbL0PX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_mwbL0fX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_jKEsEK5qEem6ANr7eI5-jw" name="Avionics stack section" state="Baseline" acronym="2006AvSS" parentAssembly="_4utusK5pEem6ANr7eI5-jw" parts="_TF5y8K5sEem6ANr7eI5-jw _PQQXEK5sEem6ANr7eI5-jw _6AhC4K5rEem6ANr7eI5-jw _8KFXcK5rEem6ANr7eI5-jw _ALVmYK5sEem6ANr7eI5-jw _DdO08K5sEem6ANr7eI5-jw _Gf_bUK5sEem6ANr7eI5-jw _IvjDIK5sEem6ANr7eI5-jw _LW11gK5sEem6ANr7eI5-jw _pj35IOnmEemza_JiiW2ylA _qpUeQOnmEemza_JiiW2ylA _D3YtIBZxEeqo8uS28v9r_w">
+      <annotations xsi:type="efse:Annotation" xmi:id="_ldZcsPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_lZLsEPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_lZLsEfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_TEFqgK5rEem6ANr7eI5-jw" name="Pressurant tank mounting panel" state="Baseline" acronym="2006PresTMP" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_WmJE4K5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.7"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_4utusK5pEem6ANr7eI5-jw" name="Base plate module" state="Baseline" acronym="2006BPM" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw" parts="_muZHYK5qEem6ANr7eI5-jw _p4bacK5qEem6ANr7eI5-jw _v9TG8K5qEem6ANr7eI5-jw _jKEsEK5qEem6ANr7eI5-jw _gbRjgK5qEem6ANr7eI5-jw _dfXMAK5qEem6ANr7eI5-jw _Vf-TkK5qEem6ANr7eI5-jw _YPAFoK5qEem6ANr7eI5-jw _axqPoK5qEem6ANr7eI5-jw _1u2oQOnmEemza_JiiW2ylA _4XeQUOnmEemza_JiiW2ylA _6ZdWMOnmEemza_JiiW2ylA _7xGekOnmEemza_JiiW2ylA _9VzykOnmEemza_JiiW2ylA _x2Ow4OnmEemza_JiiW2ylA _vR9dUOnmEemza_JiiW2ylA _bwRmYOnmEemza_JiiW2ylA _fWeRAOnmEemza_JiiW2ylA _hCPPQOnmEemza_JiiW2ylA">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_Vf-TkK5qEem6ANr7eI5-jw" name="Base plate" state="Baseline" acronym="2006BP" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_UPfWkK5_Eem6ANr7eI5-jw" name="Mass CBE" value="1.32"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_-j5j8K5qEem6ANr7eI5-jw" name="Propellant tank mounting panel" state="Baseline" acronym="2006PropTMP" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_VvVYsK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.7"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_FMHOEK5rEem6ANr7eI5-jw" name="Propulsion structure post 1" state="Baseline" acronym="2006PSpost1/6" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_WObvgK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.6"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_FCvsIK5qEem6ANr7eI5-jw" name="Top panel module" state="Baseline" acronym="2006TPM" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw" parts="_0ATM4K5rEem6ANr7eI5-jw _eNSMgK5rEem6ANr7eI5-jw _i3HeYK5rEem6ANr7eI5-jw _my0e8K5rEem6ANr7eI5-jw _rpGRYK5rEem6ANr7eI5-jw _vARBgK5rEem6ANr7eI5-jw _xVpkgK5rEem6ANr7eI5-jw _PyTjEOnnEemza_JiiW2ylA _TN7VYOnnEemza_JiiW2ylA _UYCYEOnnEemza_JiiW2ylA _VUh1gOnnEemza_JiiW2ylA _WWvgcOnnEemza_JiiW2ylA">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_0ATM4K5rEem6ANr7eI5-jw" name="Top panel" state="Baseline" acronym="2006TP" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_XG62sK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.7"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_eNSMgK5rEem6ANr7eI5-jw" name="Structure post 1" state="Baseline" acronym="2006Spost1/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_Xzzx4K5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.6"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_H6YAkK5qEem6ANr7eI5-jw" name="Side panel 1" state="Baseline" acronym="2006Spanel1/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_YOEE8K5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_a_JckK5rEem6ANr7eI5-jw" name="Payload structural interface" state="Baseline" acronym="2006PSI" parentAssembly="_CVfbsK5qEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_1-jusK5-Eem6ANr7eI5-jw" name="Mass CBE" value="3.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_JZyh0OnnEemza_JiiW2ylA" name="Propulsion structure post 2" state="Baseline" acronym="2006PSpost2/6" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_KpeBAOnnEemza_JiiW2ylA" name="Propulsion structure post 3" state="Baseline" acronym="2006PSpost3/6" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_Lk5HcOnnEemza_JiiW2ylA" name="Propulsion structure post 4" state="Baseline" acronym="2006PSpost4/6" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_PyTjEOnnEemza_JiiW2ylA" name="Structure post 2" state="Baseline" acronym="2006Spost2/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_TN7VYOnnEemza_JiiW2ylA" name="Structure post 3" state="Baseline" acronym="2006Spost3/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_UYCYEOnnEemza_JiiW2ylA" name="Structure post 4" state="Baseline" acronym="2006Spost4/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_VUh1gOnnEemza_JiiW2ylA" name="Structure post 5" state="Baseline" acronym="2006Spost5/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_WWvgcOnnEemza_JiiW2ylA" name="Structure post 6" state="Baseline" acronym="2006Spost6/6" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_bL4qcOnnEemza_JiiW2ylA" name="Side panel 2" state="Baseline" acronym="2006Spanel2/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_7xnNoBVkEeqhTNweC2t9vQ" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_cbUSAOnnEemza_JiiW2ylA" name="Side panel 3" state="Baseline" acronym="2006Spanel3/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_8JF5gBVkEeqhTNweC2t9vQ" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_iNRpkOnnEemza_JiiW2ylA" name="Side panel 4" state="Baseline" acronym="2006Spanel4/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_8fmVABVkEeqhTNweC2t9vQ" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_jhV5gOnnEemza_JiiW2ylA" name="Side panel 5" state="Baseline" acronym="2006Spanel5/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_9JowgBVkEeqhTNweC2t9vQ" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_kloBAOnnEemza_JiiW2ylA" name="Side panel 6" state="Baseline" acronym="2006Spanel6/6" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_9jbJgBVkEeqhTNweC2t9vQ" name="Mass CBE" value="0.8"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_sK0bYJOxEemXD4A3fC9Vag" name="Communications" state="Baseline" acronym="TEL" number="2002" massLimit="3.26">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_Gf_bUK5sEem6ANr7eI5-jw" name="Receiver unit" state="Baseline" acronym="2002RU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_wUBoAPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_ZKG2cK5_Eem6ANr7eI5-jw" name="Mass CBE" value="1.0"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_JleUkPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_JleUkfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_DdO08K5sEem6ANr7eI5-jw" name="Transmitter unit" state="Baseline" acronym="2002TU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_vIC9EPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_YxhXUK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.1"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_JDQYUPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_JDQYUfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_rpGRYK5rEem6ANr7eI5-jw" name="Receive whip antenna" state="Baseline" acronym="2002RWA" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_5HisEPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_dFFeQK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.08"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_LfOrgPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_LfOrgfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_my0e8K5rEem6ANr7eI5-jw" name="Transmit hi-gain antenna" state="Baseline" acronym="2002THGA" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_4Y42UPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_cS4lQK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.04"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_KyycQPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_KyycQfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_i3HeYK5rEem6ANr7eI5-jw" name="Transmit whip antenna" state="Baseline" acronym="2002TWA" parentAssembly="_FCvsIK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_3q0PYPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_bTTXkK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.04"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_KJWdsPX0Eem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_KJWdsfX0Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_A4XBcJOyEemXD4A3fC9Vag" name="EPS" state="Baseline" acronym="PWR" number="2004" massLimit="9.31">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_YPAFoK5qEem6ANr7eI5-jw" name="Battery pack 2" state="Baseline" acronym="2004Batt2/3" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_aNhD4PX_EemNg_0ab58a8A" key="Type" value="Power source"/>
+      <annotations xsi:type="efse:Annotation" xmi:id="_NjmgkPYAEemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_E3yz0K5_Eem6ANr7eI5-jw" name="Mass CBE" value="3.103"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_2EIJ8PX1Eem3XbxKjQlwhA" name="PowerOut-2">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_2EIJ8fX1Eem3XbxKjQlwhA" name="switch 2" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_KAi1EPX2Eem3XbxKjQlwhA" name="PowerIn-1">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_KAi1EfX2Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_vR9dUOnmEemza_JiiW2ylA" name="Battery pack 1" state="Baseline" acronym="2004Batt1/3" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_VsrV8PX_EemNg_0ab58a8A" key="Type" value="Power source"/>
+      <annotations xsi:type="efse:Annotation" xmi:id="_KiDbIPYAEemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_c2ThIBVmEeqhTNweC2t9vQ" name="Mass CBE" value="3.103"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_1ROGUPX1Eem3XbxKjQlwhA" name="PowerOut-2">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_1ROGUfX1Eem3XbxKjQlwhA" name="switch 2" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_IZv2YPX2Eem3XbxKjQlwhA" name="PowerIn-1">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_IZv2YfX2Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_x2Ow4OnmEemza_JiiW2ylA" name="Battery pack 3" state="Baseline" acronym="2004Batt3/3" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_eIN-4PX_EemNg_0ab58a8A" key="Type" value="Power source"/>
+      <annotations xsi:type="efse:Annotation" xmi:id="_VZjJIPYAEemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_dJhYEBVmEeqhTNweC2t9vQ" name="Mass CBE" value="3.103"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_24fmIPX1Eem3XbxKjQlwhA" name="PowerOut-2">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_24fmIfX1Eem3XbxKjQlwhA" name="switch 2" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_LvwI4PX2Eem3XbxKjQlwhA" name="PowerIn-1">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_Lvwv8PX2Eem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_NXy9oJOyEemXD4A3fC9Vag" name="Thermal control" state="Baseline" acronym="THERM" number="2011" massLimit="3.9">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_MAvZAK5qEem6ANr7eI5-jw" name="Thermal blankets" state="Baseline" acronym="2011TB" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_gAvXEK5_Eem6ANr7eI5-jw" name="Mass CBE" value="3.9"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_Lt17QJPIEemXD4A3fC9Vag" name="Propulsion" state="Baseline" acronym="PROP" number="2010" massLimit="44.14">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_p4bacK5qEem6ANr7eI5-jw" name="ACS thruster 2" state="Baseline" acronym="2010ACST-2" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_KZwAgK5_Eem6ANr7eI5-jw" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_LW11gK5sEem6ANr7eI5-jw" name="Propulsion system control unit" state="Baseline" acronym="2010PSCU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_sOZPYPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_JMotIK5_Eem6ANr7eI5-jw" name="Mass CBE" value="1.0"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_VqyWAPXzEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_VqyWAfXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_Cqb7gK5rEem6ANr7eI5-jw" name="Propellant tank" state="Baseline" acronym="2010PropT" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_STSvoK5_Eem6ANr7eI5-jw" name="Mass CBE" value="20.0"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_LLA1cK5rEem6ANr7eI5-jw" name="Pressurant tank" state="Baseline" acronym="2010PresT" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_S0JZ8K5_Eem6ANr7eI5-jw" name="Mass CBE" value="10.0"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_muZHYK5qEem6ANr7eI5-jw" name="Primary thruster" state="Baseline" acronym="2010PT" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_J4BzgK5_Eem6ANr7eI5-jw" name="Mass CBE" value="1.0"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_OTIc8K5rEem6ANr7eI5-jw" name="PM propellant line unit" state="Baseline" acronym="2010PMPLU" parentAssembly="__2BIkK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_TVM4kK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.695"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="__2BIkK5pEem6ANr7eI5-jw" name="Propulsion module" state="Baseline" acronym="2010PM" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw" parts="_-j5j8K5qEem6ANr7eI5-jw _FMHOEK5rEem6ANr7eI5-jw _TEFqgK5rEem6ANr7eI5-jw _LLA1cK5rEem6ANr7eI5-jw _OTIc8K5rEem6ANr7eI5-jw _JZyh0OnnEemza_JiiW2ylA _KpeBAOnnEemza_JiiW2ylA _Lk5HcOnnEemza_JiiW2ylA _Cqb7gK5rEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_WjtZsPYBEemNg_0ab58a8A" key="Type" value="Power load"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_bElsQPXzEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_bElsQfXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_Za93kK5sEem6ANr7eI5-jw" name="Fill/Drain valve unit" state="Baseline" acronym="2010FDVU" parentAssembly="_v9TG8K5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_ivVT8PX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_RK-csK5_Eem6ANr7eI5-jw" name="Mass CBE" value="3.75"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_ZqH5YPXzEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_ZqH5YfXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_coHwEK5sEem6ANr7eI5-jw" name="BP propellant line unit" state="Baseline" acronym="2010BPPLU" parentAssembly="_v9TG8K5qEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_R18FQK5_Eem6ANr7eI5-jw" name="Mass CBE" value="2.695"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_v9TG8K5qEem6ANr7eI5-jw" name="Propellant handling section" state="Baseline" acronym="2010PHS" parentAssembly="_4utusK5pEem6ANr7eI5-jw" parts="_Za93kK5sEem6ANr7eI5-jw _coHwEK5sEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_kAlgcPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_W876YPXzEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_W876YfXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_1u2oQOnmEemza_JiiW2ylA" name="ACS thruster 1" state="Baseline" acronym="2010ACST-1" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_xoMbsBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_4XeQUOnmEemza_JiiW2ylA" name="ACS thruster 3" state="Baseline" acronym="2010ACST-3" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_ytPYMBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_6ZdWMOnmEemza_JiiW2ylA" name="ACS thruster 4" state="Baseline" acronym="2010ACST-4" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_zGqk0BVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_7xGekOnmEemza_JiiW2ylA" name="ACS thruster 5" state="Baseline" acronym="2010ACST-5" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_zcAisBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_9VzykOnmEemza_JiiW2ylA" name="ACS thruster 6" state="Baseline" acronym="2010ACST-6" parentAssembly="_4utusK5pEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_ztPcoBVmEeqhTNweC2t9vQ" name="Mass CBE" value="0.5"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_XyQmkJRQEemOX4eyXOr9hA" name="Payload" state="Baseline" acronym="PS" number="2021" massLimit="28.1">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_YqCmYK5rEem6ANr7eI5-jw" name="Sensor" state="Baseline" acronym="2021S" parentAssembly="_CVfbsK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_CLRy4PX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_1KVccK5-Eem6ANr7eI5-jw" name="Mass CBE" value="28.1"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_FLCAAPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_FLCAAfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_CVfbsK5qEem6ANr7eI5-jw" name="Payload module" state="Baseline" acronym="2021PM" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw" parts="_YqCmYK5rEem6ANr7eI5-jw _a_JckK5rEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_JkNIQPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_EVSDwPXoEem3XbxKjQlwhA" name="PowerIn">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_EVSDwfXoEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_8Pce4JRcEemOX4eyXOr9hA" name="Structures and mechanisms" state="Baseline" acronym="STR" number="2001" massLimit="32.37">
+    <assemblies xsi:type="efse:Assembly" xmi:id="_6AhC4K5rEem6ANr7eI5-jw" name="Power control unit" state="Baseline" acronym="2001PCU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_tEkpcPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_UvS4AK5_Eem6ANr7eI5-jw" name="Mass CBE" value="5.96"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_lyCtcPXzEem3XbxKjQlwhA" name="PowerIn-1">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_lyCtcfXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_ITln0By1Eeqa48o-GgR_YQ" name="PowerOut-2">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_ITln0Ry1Eeqa48o-GgR_YQ" name="switch 2" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_CtaiIBy4Eeqa48o-GgR_YQ" name="PowerOut-3">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_CtaiIRy4Eeqa48o-GgR_YQ" name="switch 3" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_FOQuQBy4Eeqa48o-GgR_YQ" name="PowerOut-4">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_FOQuQRy4Eeqa48o-GgR_YQ" name="switch 4" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_GawWkBy4Eeqa48o-GgR_YQ" name="PowerOut-5">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_GawWkRy4Eeqa48o-GgR_YQ" name="switch 5" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_HeQa8By4Eeqa48o-GgR_YQ" name="PowerOut-6">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_HeQa8Ry4Eeqa48o-GgR_YQ" name="switch 6" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_OnTyoK5qEem6ANr7eI5-jw" name="Solar array with SADA 1" state="Baseline" acronym="2001SA1/2" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_NB_dwPX_EemNg_0ab58a8A" key="Type" value="Power source"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_fiIIcK5_Eem6ANr7eI5-jw" name="Mass CBE" value="7.965"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_xIBuQPXzEem3XbxKjQlwhA" name="PowerOut">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_xIBuQfXzEem3XbxKjQlwhA" name="switch 1" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_DXSz4OnnEemza_JiiW2ylA" name="Solar array with SADA 2" state="Baseline" acronym="2001SA2/2" parentAssembly="_NsUmgK5pEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_ObbV4PX_EemNg_0ab58a8A" key="Type" value="Power source"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_L-IfkBVlEeqhTNweC2t9vQ" name="Mass CBE" value="7.965"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_xsr6gPXzEem3XbxKjQlwhA" name="PowerOut">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_xsr6gfXzEem3XbxKjQlwhA" name="switch 1" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_8KFXcK5rEem6ANr7eI5-jw" name="EPS regulators and converters unit" state="Baseline" acronym="2001EPSRCU" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <annotations xsi:type="efse:Annotation" xmi:id="_q_6DAPX_EemNg_0ab58a8A" key="Type" value="Power load"/>
+      <annotations xsi:type="efse:Annotation" xmi:id="_LEAcMPYBEemNg_0ab58a8A" key="Type" value="Power source"/>
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_VUMU0K5_Eem6ANr7eI5-jw" name="Mass CBE" value="7.48"/>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_nt1FsPXoEem3XbxKjQlwhA" name="PowerOut-3">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_nt1swPXoEem3XbxKjQlwhA" name="switch 3" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_v9xhoPXzEem3XbxKjQlwhA" name="PowerIn-1">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_v9xhofXzEem3XbxKjQlwhA" name="switch 1" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_rFOzcPX1Eem3XbxKjQlwhA" name="PowerIn-2">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_rFOzcfX1Eem3XbxKjQlwhA" name="switch 2" direction="In">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF4oFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <endCircuitGroups xsi:type="efse:EndCircuitGroup" xmi:id="_4IJzoBy3Eeqa48o-GgR_YQ" name="PowerOut-4">
+        <endCircuits xsi:type="efse:EndCircuit" xmi:id="_4IJzoRy3Eeqa48o-GgR_YQ" name="switch 4" direction="Out">
+          <specializes xsi:type="efse:AbstractEndCircuit" href="../libraries/ECTypes.library#_DOkF5IFoEeiNqNyH9cEJTQ"/>
+        </endCircuits>
+      </endCircuitGroups>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_D3YtIBZxEeqo8uS28v9r_w" name="EPS harness" state="Baseline" acronym="2001EPSH" parentAssembly="_jKEsEK5qEem6ANr7eI5-jw">
+      <ownedProperties xsi:type="efse:NumberProperty" xmi:id="_OcB7IBZyEeqo8uS28v9r_w" name="Mass CBE" value="7.0"/>
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+  <subsystems xsi:type="efse:Subsystem" xmi:id="_qRJOMKNuEemCbdA583a8Dg" name="Firesat flight system" state="Baseline" acronym="FS" number="2000">
+    <massComponents xsi:type="efse:ConsumableMass" xmi:id="_1z-50KQfEem1Qrogf1zyoA" name="Propellant" acronym="WP6.4.8" massCbe="66.21" massMga="10.0"/>
+    <assemblies xsi:type="efse:Assembly" xmi:id="_NsUmgK5pEem6ANr7eI5-jw" name="Firesat spacecraft system segment" state="Baseline" acronym="2000Firesat" parts="_8OfBMK5pEem6ANr7eI5-jw _4utusK5pEem6ANr7eI5-jw __2BIkK5pEem6ANr7eI5-jw _CVfbsK5qEem6ANr7eI5-jw _FCvsIK5qEem6ANr7eI5-jw _H6YAkK5qEem6ANr7eI5-jw _MAvZAK5qEem6ANr7eI5-jw _OnTyoK5qEem6ANr7eI5-jw _bL4qcOnnEemza_JiiW2ylA _cbUSAOnnEemza_JiiW2ylA _iNRpkOnnEemza_JiiW2ylA _jhV5gOnnEemza_JiiW2ylA _kloBAOnnEemza_JiiW2ylA _DXSz4OnnEemza_JiiW2ylA">
+      <specializes xsi:type="efse:AbstractAssembly" href="../libraries/AssemblyTypes.library#_dUUcEOz7EeiHL-Kg88CNuw"/>
+    </assemblies>
+  </subsystems>
+</efse:System>

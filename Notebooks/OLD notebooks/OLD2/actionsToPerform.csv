@@ -1,0 +1,21 @@
+[[1]]
+<div>
+  9
+  isolated clusters found -&gt; Connect the extra clusters.
+</div>
+
+[[2]]
+<div>
+  2
+   loop(s) makes the WorkBench graph cyclic -&gt; Correct the related edges to build an acyclic graph.
+</div>
+
+[[3]]
+[1] ""
+
+[[4]]
+<div>
+  7
+  roots found instead of 1 -&gt; Correct the extra roots.
+</div>
+

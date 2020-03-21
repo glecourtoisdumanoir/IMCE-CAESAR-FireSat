@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_nYPlwDapEei2mqKEEbyKfw" selectedViews="_p2tzUDapEei2mqKEEbyKfw _vbUgn94tSUKoqdj8Wta6dQ" version="14.1.0.201810161215">
+    <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="flightsystem/FlightSystem.aird#_uVeoMDaqEei5TbN3dhlpkA"/>
+    <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="functionlist/FunctionList.aird#_2DrqADaqEei5TbN3dhlpkA"/>
+    <semanticResources>flightsystem/FlightSystem.refdes</semanticResources>
+    <semanticResources>functionlist/FunctionList.cefl</semanticResources>
+    <semanticResources>libraries/FunctionTypes.library</semanticResources>
+    <semanticResources>libraries/AssemblyTypes.library</semanticResources>
+    <semanticResources>libraries/ECTypes.library</semanticResources>
+    <semanticResources>environment:/viewpoint</semanticResources>
+    <semanticResources>flightsystem/WorkPackages.wbs</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_p2tzUDapEei2mqKEEbyKfw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Xo1EoI44EemXe5p9qkAUUA" name="Physical Composition Tree" repPath="#_1q_GII43EemXe5p9qkAUUA">
+        <description xmi:type="description_1:TreeDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']"/>
+        <target xmi:type="efse:System" href="flightsystem/FlightSystem.refdes#_7aifMH8SEeixEPdCsclxDg"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_vbUgn94tSUKoqdj8Wta6dQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_kFMo0Ot5EemYsdQlvzjE8g" name="Mass Manifest" repPath="#_kEuuwOt5EemYsdQlvzjE8g">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']"/>
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Y_sOEPmdEemLi4R2chb0Fw" name="Mass Manifest" repPath="#_Y_FxIPmdEemLi4R2chb0Fw">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']"/>
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_YFYaAGuXEemAAukdc1Tu3A">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <tree:DTree uid="_1q_GII43EemXe5p9qkAUUA" name="Physical Composition Tree">
+    <target xmi:type="efse:System" href="flightsystem/FlightSystem.refdes#_7aifMH8SEeixEPdCsclxDg"/>
+    <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1rOWsI43EemXe5p9qkAUUA" name="Firesat" expanded="true">
+      <target xmi:type="efse:System" href="flightsystem/FlightSystem.refdes#_7aifMH8SEeixEPdCsclxDg"/>
+      <ownedTreeItems xmi:type="tree:DTreeItem" uid="__NrScOr_Eem2PJwOOhL0tw" name="20002000Firesat (Firesat spacecraft system segment)" expanded="true">
+        <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_NsUmgK5pEem6ANr7eI5-jw"/>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y6_t8esBEem2PJwOOhL0tw" name="20012001SA1/2 (Solar array with SADA 1)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_OnTyoK5qEem6ANr7eI5-jw"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_OnTyoK5qEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y6_t8usBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7AVAOsBEem2PJwOOhL0tw" name="20012001SA2/2 (Solar array with SADA 2)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_DXSz4OnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_DXSz4OnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7AVAesBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7AVA-sBEem2PJwOOhL0tw" name="20062006BPM (Base plate module)" expanded="true">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_4utusK5pEem6ANr7eI5-jw"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOLrsO99EemJodJaMoJP9A" name="20042004Batt1/3 (Battery pack 1)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOLrse99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOLrs-99EemJodJaMoJP9A" name="20042004Batt2/3 (Battery pack 2)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOLrtO99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOMSwe99EemJodJaMoJP9A" name="20042004Batt3/3 (Battery pack 3)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOMSwu99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOOH8-99EemJodJaMoJP9A" name="20062006AvSS (Avionics stack section)" expanded="true">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_jKEsEK5qEem6ANr7eI5-jw"/>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_G5pKsCqdEeqDcO4B1JV8Jg" name="20012001EPSH (EPS harness)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_D3YtIBZxEeqo8uS28v9r_w"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_D3YtIBZxEeqo8uS28v9r_w"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_G5pKsSqdEeqDcO4B1JV8Jg" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzFt_X_EemNg_0ab58a8A" name="20012001EPSRCU (EPS regulators and converters unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzFuPX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzsxPX_EemNg_0ab58a8A" name="20012001PCU (Power control unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzsxfX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lI0T0fX_EemNg_0ab58a8A" name="20022002RU (Receiver unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Gf_bUK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Gf_bUK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lI0T0vX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzsx_X_EemNg_0ab58a8A" name="20022002TU (Transmitter unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_DdO08K5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_DdO08K5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzsyPX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lI0T1PX_EemNg_0ab58a8A" name="20062006PFCU (Primary flight computer unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_ALVmYK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_ALVmYK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lI0T1fX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIyeoPX_EemNg_0ab58a8A" name="20072007ADCSEU (ADCS electronics unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_PQQXEK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_PQQXEK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIyeofX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOSZYO99EemJodJaMoJP9A" name="20072007GPSRU (GPS receiver unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_IvjDIK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_IvjDIK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOSZYe99EemJodJaMoJP9A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIyeo_X_EemNg_0ab58a8A" name="20072007Magnetor-1 (Magnetorquer 1)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TF5y8K5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TF5y8K5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIyepPX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzFsfX_EemNg_0ab58a8A" name="20072007Magnetor-2 (Magnetorquer 2)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_pj35IOnmEemza_JiiW2ylA"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_pj35IOnmEemza_JiiW2ylA"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzFsvX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzFtPX_EemNg_0ab58a8A" name="20072007Magnetor-3 (Magnetorquer 3)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_qpUeQOnmEemza_JiiW2ylA"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_qpUeQOnmEemza_JiiW2ylA"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzFtfX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_lIzswfX_EemNg_0ab58a8A" name="20102010PSCU (Propulsion system control unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_LW11gK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_LW11gK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_lIzswvX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_jKEsEK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOOH9O99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOOH8O99EemJodJaMoJP9A" name="20062006BP (Base plate)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Vf-TkK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Vf-TkK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOOH8e99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOLEoe99EemJodJaMoJP9A" name="20072007GPSA (GPS antenna)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_gbRjgK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_gbRjgK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOLEou99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7IQ0OsBEem2PJwOOhL0tw" name="20072007Magnetom (Magnetometer)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_axqPoK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_axqPoK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7IQ0esBEem2PJwOOhL0tw" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOHaQO99EemJodJaMoJP9A" name="20072007RW1/4 (Reaction wheel 1)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_bwRmYOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_bwRmYOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOHaQe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOHaQ-99EemJodJaMoJP9A" name="20072007RW2/4 (Reaction wheel 2)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_fWeRAOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_fWeRAOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOHaRO99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOIBUe99EemJodJaMoJP9A" name="20072007RW3/4 (Reaction wheel 3)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_hCPPQOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_hCPPQOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOIBUu99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOJ2gO99EemJodJaMoJP9A" name="20072007RW4/4 (Reaction wheel 4)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_dfXMAK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_dfXMAK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOJ2ge99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOMSx-99EemJodJaMoJP9A" name="20102010ACST-1 (ACS thruster 1)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_1u2oQOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_1u2oQOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOMSyO99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOM50e99EemJodJaMoJP9A" name="20102010ACST-2 (ACS thruster 2)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_p4bacK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_p4bacK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOM50u99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOM51O99EemJodJaMoJP9A" name="20102010ACST-3 (ACS thruster 3)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_4XeQUOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_4XeQUOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOM51e99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOM51-99EemJodJaMoJP9A" name="20102010ACST-4 (ACS thruster 4)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_6ZdWMOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_6ZdWMOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOM52O99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UONg4O99EemJodJaMoJP9A" name="20102010ACST-5 (ACS thruster 5)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_7xGekOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_7xGekOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UONg4e99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UONg4-99EemJodJaMoJP9A" name="20102010ACST-6 (ACS thruster 6)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_9VzykOnmEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_9VzykOnmEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UONg5O99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UONg5u99EemJodJaMoJP9A" name="20102010PHS (Propellant handling section)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_v9TG8K5qEem6ANr7eI5-jw"/>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_hEm3gPX_EemNg_0ab58a8A" name="20102010BPPLU (BP propellant line unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_coHwEK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_coHwEK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_hEm3gfX_EemNg_0ab58a8A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UORyUO99EemJodJaMoJP9A" name="20102010FDVU (Fill/Drain valve unit)">
+              <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Za93kK5sEem6ANr7eI5-jw"/>
+              <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Za93kK5sEem6ANr7eI5-jw"/>
+              <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UORyUe99EemJodJaMoJP9A" labelSize="10"/>
+              <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+            </ownedTreeItems>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_v9TG8K5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UONg5-99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UOMSxO99EemJodJaMoJP9A" name="20102010PT (Primary thruster)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_muZHYK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_muZHYK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UOMSxe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_4utusK5pEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7AVBOsBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7A8EOsBEem2PJwOOhL0tw" name="20062006LVIM (Launch vehicle interface module)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_8OfBMK5pEem6ANr7eI5-jw"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7I34OsBEem2PJwOOhL0tw" name="20062006LVA (Launch vehicle adapter)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_ze0s8K5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_ze0s8K5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7I34esBEem2PJwOOhL0tw" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_yU23UPX_EemNg_0ab58a8A" name="20062006SS (Separation system)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_23bAcK5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_23bAcK5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_yU23UfX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_8OfBMK5pEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7A8EesBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7BjIOsBEem2PJwOOhL0tw" name="20062006Spanel1/6 (Side panel 1)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_H6YAkK5qEem6ANr7eI5-jw"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_H6YAkK5qEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7BjIesBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7BjI-sBEem2PJwOOhL0tw" name="20062006Spanel2/6 (Side panel 2)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_bL4qcOnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_bL4qcOnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7BjJOsBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7BjJusBEem2PJwOOhL0tw" name="20062006Spanel3/6 (Side panel 3)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_cbUSAOnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_cbUSAOnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7BjJ-sBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7CKMesBEem2PJwOOhL0tw" name="20062006Spanel4/6 (Side panel 4)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_iNRpkOnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_iNRpkOnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7CKMusBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7CKNOsBEem2PJwOOhL0tw" name="20062006Spanel5/6 (Side panel 5)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_jhV5gOnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_jhV5gOnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7CKNesBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7CxQOsBEem2PJwOOhL0tw" name="20062006Spanel6/6 (Side panel 6)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_kloBAOnnEemza_JiiW2ylA"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_kloBAOnnEemza_JiiW2ylA"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7CxQesBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7A8E-sBEem2PJwOOhL0tw" name="20062006TPM (Top panel module)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_FCvsIK5qEem6ANr7eI5-jw"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQpvX_EemNg_0ab58a8A" name="20022002RWA (Receive whip antenna)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_rpGRYK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_rpGRYK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQp_X_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQo_X_EemNg_0ab58a8A" name="20022002THGA (Transmit hi-gain antenna)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_my0e8K5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_my0e8K5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQpPX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQoPX_EemNg_0ab58a8A" name="20022002TWA (Transmit whip antenna)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_i3HeYK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_i3HeYK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQofX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQrPX_EemNg_0ab58a8A" name="20062006Spost1/6 (Structure post 1)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_eNSMgK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_eNSMgK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQrfX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQr_X_EemNg_0ab58a8A" name="20062006Spost2/6 (Structure post 2)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_PyTjEOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_PyTjEOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQsPX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQsvX_EemNg_0ab58a8A" name="20062006Spost3/6 (Structure post 3)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TN7VYOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TN7VYOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQs_X_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1Ws3sfX_EemNg_0ab58a8A" name="20062006Spost4/6 (Structure post 4)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_UYCYEOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_UYCYEOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1Ws3svX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1Ws3tPX_EemNg_0ab58a8A" name="20062006Spost5/6 (Structure post 5)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_VUh1gOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_VUh1gOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1Ws3tfX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1Ws3t_X_EemNg_0ab58a8A" name="20062006Spost6/6 (Structure post 6)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_WWvgcOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_WWvgcOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1Ws3uPX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WsQqfX_EemNg_0ab58a8A" name="20062006TP (Top panel)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_0ATM4K5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_0ATM4K5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WsQqvX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_1WrpkPX_EemNg_0ab58a8A" name="20072007ES (Earth sensor)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_xVpkgK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_xVpkgK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1WrpkfX_EemNg_0ab58a8A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7Je8OsBEem2PJwOOhL0tw" name="20072007SS (Sun sensor)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_vARBgK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_vARBgK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7Je8esBEem2PJwOOhL0tw" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_FCvsIK5qEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7A8FOsBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y6_G4OsBEem2PJwOOhL0tw" name="20102010PM (Propulsion module)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#__2BIkK5pEem6ANr7eI5-jw"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCCtJu99EemJodJaMoJP9A" name="20062006PSpost1/6 (Propulsion structure post 1)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_FMHOEK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_FMHOEK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCCtJ-99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCDUMO99EemJodJaMoJP9A" name="20062006PSpost2/6 (Propulsion structure post 2)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_JZyh0OnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_JZyh0OnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCDUMe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCFJYO99EemJodJaMoJP9A" name="20062006PSpost3/6 (Propulsion structure post 3)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_KpeBAOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_KpeBAOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCFJYe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCGXgO99EemJodJaMoJP9A" name="20062006PSpost4/6 (Propulsion structure post 4)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Lk5HcOnnEemza_JiiW2ylA"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Lk5HcOnnEemza_JiiW2ylA"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCGXge99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCG-ke99EemJodJaMoJP9A" name="20062006PresTMP (Pressurant tank mounting panel)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TEFqgK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_TEFqgK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCG-ku99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCCtI-99EemJodJaMoJP9A" name="20062006PropTMP (Propellant tank mounting panel)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_-j5j8K5qEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_-j5j8K5qEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCCtJO99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCCtIO99EemJodJaMoJP9A" name="20102010PMPLU (PM propellant line unit)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_OTIc8K5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_OTIc8K5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCCtIe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_UCCGEO99EemJodJaMoJP9A" name="20102010PresT (Pressurant tank)" expanded="true">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_LLA1cK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_LLA1cK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_UCCGEe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_4Qkd4hVmEeqhTNweC2t9vQ" name="20102010PropT (Propellant tank)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Cqb7gK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_Cqb7gK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_4Qkd4xVmEeqhTNweC2t9vQ" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#__2BIkK5pEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y6_G4esBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7CxQ-sBEem2PJwOOhL0tw" name="20112011TB (Thermal blankets)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_MAvZAK5qEem6ANr7eI5-jw"/>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_MAvZAK5qEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7CxROsBEem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <ownedTreeItems xmi:type="tree:DTreeItem" uid="__Nr5gOr_Eem2PJwOOhL0tw" name="20212021PM (Payload module)">
+          <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_CVfbsK5qEem6ANr7eI5-jw"/>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_T3EMMO99EemJodJaMoJP9A" name="20062006PSI (Payload structural interface)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_a_JckK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_a_JckK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_T3EMMe99EemJodJaMoJP9A" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <ownedTreeItems xmi:type="tree:DTreeItem" uid="_y7F0kOsBEem2PJwOOhL0tw" name="20212021S (Sensor)">
+            <target xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_YqCmYK5rEem6ANr7eI5-jw"/>
+            <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_YqCmYK5rEem6ANr7eI5-jw"/>
+            <ownedStyle xmi:type="tree:TreeItemStyle" uid="_y7F0kesBEem2PJwOOhL0tw" labelSize="10"/>
+            <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+          </ownedTreeItems>
+          <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_CVfbsK5qEem6ANr7eI5-jw"/>
+          <ownedStyle xmi:type="tree:TreeItemStyle" uid="__Nr5ger_Eem2PJwOOhL0tw" labelSize="10"/>
+          <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']/@subItemMappings[name='Parts']"/>
+        </ownedTreeItems>
+        <semanticElements xmi:type="efse:Assembly" href="flightsystem/FlightSystem.refdes#_NsUmgK5pEem6ANr7eI5-jw"/>
+        <ownedStyle xmi:type="tree:TreeItemStyle" uid="__NrScer_Eem2PJwOOhL0tw" labelSize="10"/>
+        <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']/@subItemMappings[name='Root%20Assemblies']"/>
+      </ownedTreeItems>
+      <semanticElements xmi:type="efse:System" href="flightsystem/FlightSystem.refdes#_7aifMH8SEeixEPdCsclxDg"/>
+      <ownedStyle xmi:type="tree:TreeItemStyle" uid="_1rPk0I43EemXe5p9qkAUUA" labelSize="10"/>
+      <actualMapping xmi:type="description_1:TreeItemMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']/@subItemMappings[name='System']"/>
+    </ownedTreeItems>
+    <description xmi:type="description_1:TreeDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/efse.odesign#//@ownedViewpoints[name='efse']/@ownedRepresentations[name='compositiontree']"/>
+  </tree:DTree>
+  <table:DTable uid="_kEuuwOt5EemYsdQlvzjE8g" name="Mass Manifest" headerColumnWidth="408">
+    <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+    <lines xmi:type="table:DLine" uid="_kEvV0Ot5EemYsdQlvzjE8g" label="Work Breakdown Root WorkBreakdown">
+      <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+      <lines xmi:type="table:DLine" uid="_oEHVcOt5EemYsdQlvzjE8g" label="Work Package Firesat project">
+        <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        <lines xmi:type="table:DLine" uid="_r7pjsOulEemU37AntqVl2w" label="Work Package WP5">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_r8B-MeulEemU37AntqVl2w" label="WP5" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8ClQeulEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_r8ClQuulEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8DMUOulEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8DMUuulEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_r8DMU-ulEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8DMVeulEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8DzYeulEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_r8DzY-ulEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_q2iVwOulEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_r7qKwOulEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_ZbHyUOumEemU37AntqVl2w" label="Work Package WP6.4.10">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_ZbRjUeumEemU37AntqVl2w" label="WP6.4.10" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKYOumEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_ZbSKYeumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKYuumEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKZOumEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_ZbSKZeumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKZ-umEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKaeumEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_ZbSKa-umEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_Y2VDMOumEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_ZbIZYOumEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_fNQJAOumEemU37AntqVl2w" label="Work Package WP6.4.4">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_fNYE4uumEemU37AntqVl2w" label="WP6.4.4" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYE5OumEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_fNYE5eumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYr4OumEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYr4uumEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_fNYr4-umEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYr5eumEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYr5-umEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_fNYr6eumEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_eBXksOumEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_fNQwEOumEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_dDlt0OumEemU37AntqVl2w" label="Work Package WP6.4.5">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_dDr0f-umEemU37AntqVl2w" label="WP6.4.5" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbgOumEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_dDsbgeumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbguumEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbhOumEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_dDsbheumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbh-umEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbieumEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_dDsbi-umEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_cXmKgOumEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_dDlt0eumEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_R7eUcOunEemU37AntqVl2w" label="Work Package WP6.4.6">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_R7il4eunEemU37AntqVl2w" label="WP6.4.6" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il4-unEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_R7il5OunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il5eunEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il5-unEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_R7il6OunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il6uunEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il7OunEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_R7il7uunEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_RfHvoOunEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_R7eUceunEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_blKA8OumEemU37AntqVl2w" label="Work Package WP6.4.7">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_blUZCOumEemU37AntqVl2w" label="WP6.4.7" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAEeumEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_blVAEuumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAE-umEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAFeumEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_blVAFuumEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAGOumEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAGuumEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_blVAHOumEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_bAOu8OumEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_blKA8eumEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_UzLhYOunEemU37AntqVl2w" label="Work Package WP6.4.8">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_UzSPH-unEemU37AntqVl2w" label="WP6.4.8" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPIeunEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_UzSPIuunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPI-unEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPJeunEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_UzSPJuunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPKOunEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPKuunEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_UzSPLOunEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_T5x0MOunEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_UzLhYeunEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_TSqw4OunEemU37AntqVl2w" label="Work Package WP6.4.9">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_TSyFqOunEemU37AntqVl2w" label="WP6.4.9" column="_kEzAMOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSyssOunEemU37AntqVl2w" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_TSysseunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSyssuunEemU37AntqVl2w" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSystOunEemU37AntqVl2w" label="" column="_kEznQut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_TSysteunEemU37AntqVl2w">
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSyst-unEemU37AntqVl2w" label="" column="_kEznRut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSysueunEemU37AntqVl2w" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_TSysu-unEemU37AntqVl2w" label="" column="_kEznSut5EemYsdQlvzjE8g">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_SlgI4OunEemU37AntqVl2w"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_TSqw4eunEemU37AntqVl2w" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+        <cells xmi:type="table:DCell" uid="_oEODIut5EemYsdQlvzjE8g" label="Firesat project" column="_kEzAMOt5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEOqMet5EemYsdQlvzjE8g" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <currentStyle xmi:type="table:DCellStyle" uid="_oEUw0Ot5EemYsdQlvzjE8g">
+            <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+          </currentStyle>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEUw0et5EemYsdQlvzjE8g" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEVX4Ot5EemYsdQlvzjE8g" label="" column="_kEznQut5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <currentStyle xmi:type="table:DCellStyle" uid="_oEVX4et5EemYsdQlvzjE8g">
+            <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+          </currentStyle>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEV-8et5EemYsdQlvzjE8g" label="" column="_kEznRut5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEV-8-t5EemYsdQlvzjE8g" label="" column="_kEznSOt5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_oEXNEet5EemYsdQlvzjE8g" label="" column="_kEznSut5EemYsdQlvzjE8g">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkBreakdown.wbs#_llmroOt5EemYsdQlvzjE8g"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" uid="_oEIjkOt5EemYsdQlvzjE8g" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+          <labelFormat>bold</labelFormat>
+        </currentStyle>
+      </lines>
+      <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']"/>
+      <cells xmi:type="table:DCell" uid="_kE0OUet5EemYsdQlvzjE8g" label="WorkBreakdown" column="_kEzAMOt5EemYsdQlvzjE8g">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kE0OU-t5EemYsdQlvzjE8g" label="" column="_kEzAMut5EemYsdQlvzjE8g">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <currentStyle xmi:type="table:DCellStyle" uid="_kE2qkOt5EemYsdQlvzjE8g">
+          <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+        </currentStyle>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kFBCoOt5EemYsdQlvzjE8g" label="" column="_kEznQOt5EemYsdQlvzjE8g">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_kFBpset5EemYsdQlvzjE8g" label="" column="_kEznQut5EemYsdQlvzjE8g">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkBreakdown.wbs#_gMmmoOt5EemYsdQlvzjE8g"/>
+        <currentStyle xmi:type="table:DCellStyle" uid="_kFDe4Ot5EemYsdQlvzjE8g">
+          <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+        </currentStyle>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_kEv84Ot5EemYsdQlvzjE8g" labelSize="12" defaultForegroundStyle="true"/>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEyZIOt5EemYsdQlvzjE8g" label="Reference Designator" width="187" featureName="referenceDesignator">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Reference%20Designator']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEzAMOt5EemYsdQlvzjE8g" label="Name" cells="_kE0OUet5EemYsdQlvzjE8g _oEODIut5EemYsdQlvzjE8g _r8B-MeulEemU37AntqVl2w _ZbRjUeumEemU37AntqVl2w _blUZCOumEemU37AntqVl2w _dDr0f-umEemU37AntqVl2w _fNYE4uumEemU37AntqVl2w _R7il4eunEemU37AntqVl2w _TSyFqOunEemU37AntqVl2w _UzSPH-unEemU37AntqVl2w" width="235" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Name']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEzAMut5EemYsdQlvzjE8g" label="CBE Mass (kg)" cells="_kE0OU-t5EemYsdQlvzjE8g _oEOqMet5EemYsdQlvzjE8g _r8ClQeulEemU37AntqVl2w _ZbSKYOumEemU37AntqVl2w _blVAEeumEemU37AntqVl2w _dDsbgOumEemU37AntqVl2w _fNYE5OumEemU37AntqVl2w _R7il4-unEemU37AntqVl2w _TSyssOunEemU37AntqVl2w _UzSPIeunEemU37AntqVl2w" width="126" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznQOt5EemYsdQlvzjE8g" label="MGA (%)" cells="_kFBCoOt5EemYsdQlvzjE8g _oEUw0et5EemYsdQlvzjE8g _r8DMUOulEemU37AntqVl2w _ZbSKYuumEemU37AntqVl2w _blVAE-umEemU37AntqVl2w _dDsbguumEemU37AntqVl2w _fNYr4OumEemU37AntqVl2w _R7il5eunEemU37AntqVl2w _TSyssuunEemU37AntqVl2w _UzSPI-unEemU37AntqVl2w" width="85" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MGA%20(%25)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznQut5EemYsdQlvzjE8g" label="MEV Mass (kg)" cells="_kFBpset5EemYsdQlvzjE8g _oEVX4Ot5EemYsdQlvzjE8g _r8DMUuulEemU37AntqVl2w _ZbSKZOumEemU37AntqVl2w _blVAFeumEemU37AntqVl2w _dDsbhOumEemU37AntqVl2w _fNYr4uumEemU37AntqVl2w _R7il5-unEemU37AntqVl2w _TSystOunEemU37AntqVl2w _UzSPJeunEemU37AntqVl2w" width="132" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznROt5EemYsdQlvzjE8g" label="Qty" width="44" featureName="multiplicity">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Quantity']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznRut5EemYsdQlvzjE8g" label="Allocation (kg)" cells="_oEV-8et5EemYsdQlvzjE8g _r8DMVeulEemU37AntqVl2w _ZbSKZ-umEemU37AntqVl2w _blVAGOumEemU37AntqVl2w _dDsbh-umEemU37AntqVl2w _fNYr5eumEemU37AntqVl2w _R7il6uunEemU37AntqVl2w _TSyst-unEemU37AntqVl2w _UzSPKOunEemU37AntqVl2w" width="129" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Allocation']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznSOt5EemYsdQlvzjE8g" label="JPL Margin (%)" cells="_oEV-8-t5EemYsdQlvzjE8g _r8DzYeulEemU37AntqVl2w _ZbSKaeumEemU37AntqVl2w _blVAGuumEemU37AntqVl2w _dDsbieumEemU37AntqVl2w _fNYr5-umEemU37AntqVl2w _R7il7OunEemU37AntqVl2w _TSysueunEemU37AntqVl2w _UzSPKuunEemU37AntqVl2w" width="130" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='JPL%20Margin']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_kEznSut5EemYsdQlvzjE8g" label="AIAA Margin (%)" cells="_oEXNEet5EemYsdQlvzjE8g _r8DzY-ulEemU37AntqVl2w _ZbSKa-umEemU37AntqVl2w _blVAHOumEemU37AntqVl2w _dDsbi-umEemU37AntqVl2w _fNYr6eumEemU37AntqVl2w _R7il7uunEemU37AntqVl2w _TSysu-unEemU37AntqVl2w _UzSPLOunEemU37AntqVl2w" width="147" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='AIAA%20Margin']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']"/>
+  </table:DTable>
+  <table:DTable uid="_Y_FxIPmdEemLi4R2chb0Fw" name="Mass Manifest" headerColumnWidth="93">
+    <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+    <lines xmi:type="table:DLine" uid="_Y_GYMPmdEemLi4R2chb0Fw" label="Work Breakdown Root WorkPackages">
+      <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+      <lines xmi:type="table:DLine" uid="_dW4bUPmeEemLi4R2chb0Fw" label="Work Package Firesat project" collapsed="true">
+        <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        <lines xmi:type="table:DLine" uid="_gBx7UPmeEemLi4R2chb0Fw" label="Work Package WP5">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_gB0-pfmeEemLi4R2chb0Fw" label="WP5" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB1lsfmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_gB1lsvmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB2MwPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB2MwvmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_gB2z0PmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB2z0vmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB2z1PmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_gB3a4fmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_emclwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_gBx7UfmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_hr4ssPmeEemLi4R2chb0Fw" label="Work Package WP6.4.10">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_hr8XE_meEemLi4R2chb0Fw" label="WP6.4.10" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr8XFfmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_hr9lMPmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr-MQPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr-MQvmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_hr-MQ_meEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr-zUfmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr-zU_meEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_hr-zVfmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_gfTk0PmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_hr5TwPmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_jLzAQPmeEemLi4R2chb0Fw" label="Work Package WP6.4.4">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_jL2Dk_meEemLi4R2chb0Fw" label="WP6.4.4" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL2qofmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_jL2qovmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL3RsPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL34wfmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_jL4f0PmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL5G4fmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL5G4_meEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_jL5G5fmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_idP4MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_jLzAQfmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_klk2oPmeEemLi4R2chb0Fw" label="Work Package WP6.4.5">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_kln59vmeEemLi4R2chb0Fw" label="WP6.4.5" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_kln5-PmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_klohAPmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_klohAfmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_klohA_meEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_klohBPmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_klohBvmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_klpIEfmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_klpIE_meEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_joPEoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_klk2ofmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_l2jWUPmeEemLi4R2chb0Fw" label="Work Package WP6.4.6">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_l2oO0fmeEemLi4R2chb0Fw" label="WP6.4.6" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2oO0_meEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_l2oO1PmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2o14PmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2o14vmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_l2o14_meEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2qEAfmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2qrEfmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_l2qrE_meEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_k9jRwPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_l2jWUfmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_nCSwsPmeEemLi4R2chb0Fw" label="Work Package WP6.4.7">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_nCV0BPmeEemLi4R2chb0Fw" label="WP6.4.7" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCV0BvmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_nCV0B_meEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCV0CPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCWbEfmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_nCWbEvmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCWbFPmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCWbFvmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_nCWbGPmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_mNyxoPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_nCSwsfmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_sWq0YPmeEemLi4R2chb0Fw" label="Work Package WP6.4.8">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_sWuexPmeEemLi4R2chb0Fw" label="WP6.4.8" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWuexvmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_sWuex_meEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWueyPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWueyvmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_sWvF0PmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWvF0vmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWvF1PmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_sWvF1vmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_rILoAPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_sWrbcPmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <lines xmi:type="table:DLine" uid="_tWcPUPmeEemLi4R2chb0Fw" label="Work Package WP6.4.9">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+          <cells xmi:type="table:DCell" uid="_tWggxfmeEemLi4R2chb0Fw" label="WP6.4.9" column="_Y_Me0vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWggx_meEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_tWhH0PmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWhH0fmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWhu4fmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <currentStyle xmi:type="table:DCellStyle" uid="_tWhu4vmeEemLi4R2chb0Fw" labelSize="12">
+              <labelFormat>italic</labelFormat>
+              <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+            </currentStyle>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWhu5PmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWiV8PmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <cells xmi:type="table:DCell" uid="_tWiV8vmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+            <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+            <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_suI5MPmeEemLi4R2chb0Fw"/>
+          </cells>
+          <currentStyle xmi:type="table:DTableElementStyle" uid="_tWcPUfmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+            <labelFormat>bold</labelFormat>
+          </currentStyle>
+        </lines>
+        <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']/@ownedSubLines[name='Work%20Package']"/>
+        <cells xmi:type="table:DCell" uid="_dW-h8fmeEemLi4R2chb0Fw" label="Firesat project" column="_Y_Me0vmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dW_JAfmeEemLi4R2chb0Fw" label="0" column="_Y_Me1PmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <currentStyle xmi:type="table:DCellStyle" uid="_dXF2sPmeEemLi4R2chb0Fw" labelSize="12">
+            <labelFormat>italic</labelFormat>
+            <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+          </currentStyle>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dXGdwPmeEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dXHE0PmeEemLi4R2chb0Fw" label="0" column="_Y_Me2PmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <currentStyle xmi:type="table:DCellStyle" uid="_dXHr4PmeEemLi4R2chb0Fw" labelSize="12">
+            <labelFormat>italic</labelFormat>
+            <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+          </currentStyle>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dXHr4vmeEemLi4R2chb0Fw" label="" column="_Y_NF4PmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dXIS8PmeEemLi4R2chb0Fw" label="" column="_Y_NF4vmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        </cells>
+        <cells xmi:type="table:DCell" uid="_dXI6AfmeEemLi4R2chb0Fw" label="" column="_Y_NF5PmdEemLi4R2chb0Fw">
+          <target xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+          <semanticElements xmi:type="efse:WorkPackage" href="flightsystem/WorkPackages.wbs#_XrY4IPmeEemLi4R2chb0Fw"/>
+        </cells>
+        <currentStyle xmi:type="table:DTableElementStyle" uid="_dW5CYPmeEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true" defaultBackgroundStyle="true" backgroundColor="255,245,181">
+          <labelFormat>bold</labelFormat>
+        </currentStyle>
+      </lines>
+      <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedLineMappings[name='Work%20Breakdown%20Root']"/>
+      <cells xmi:type="table:DCell" uid="_Y_NF5_mdEemLi4R2chb0Fw" label="WorkPackages" column="_Y_Me0vmdEemLi4R2chb0Fw">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_Y_Ns8fmdEemLi4R2chb0Fw" label="" column="_Y_Me1PmdEemLi4R2chb0Fw">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <currentStyle xmi:type="table:DCellStyle" uid="_Y_PiIPmdEemLi4R2chb0Fw" labelSize="12">
+          <labelFormat>italic</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+        </currentStyle>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_Y_c9gPmdEemLi4R2chb0Fw" label="" column="_Y_Me1vmdEemLi4R2chb0Fw">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_Y_fZwfmdEemLi4R2chb0Fw" label="" column="_Y_Me2PmdEemLi4R2chb0Fw">
+        <target xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <semanticElements xmi:type="efse:WorkBreakdownRoot" href="flightsystem/WorkPackages.wbs#_S32GEPmdEemLi4R2chb0Fw"/>
+        <currentStyle xmi:type="table:DCellStyle" uid="_Y_gn4PmdEemLi4R2chb0Fw" labelSize="12">
+          <labelFormat>italic</labelFormat>
+          <foregroundStyleOrigin xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+        </currentStyle>
+      </cells>
+      <currentStyle xmi:type="table:DTableElementStyle" uid="_Y_HmUPmdEemLi4R2chb0Fw" labelSize="12" defaultForegroundStyle="true"/>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me0PmdEemLi4R2chb0Fw" label="Reference Designator" width="183" featureName="referenceDesignator">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Reference%20Designator']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me0vmdEemLi4R2chb0Fw" label="Name" cells="_Y_NF5_mdEemLi4R2chb0Fw _dW-h8fmeEemLi4R2chb0Fw _gB0-pfmeEemLi4R2chb0Fw _hr8XE_meEemLi4R2chb0Fw _jL2Dk_meEemLi4R2chb0Fw _kln59vmeEemLi4R2chb0Fw _l2oO0fmeEemLi4R2chb0Fw _nCV0BPmeEemLi4R2chb0Fw _sWuexPmeEemLi4R2chb0Fw _tWggxfmeEemLi4R2chb0Fw" width="216" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Name']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me1PmdEemLi4R2chb0Fw" label="CBE Mass (kg)" cells="_Y_Ns8fmdEemLi4R2chb0Fw _dW_JAfmeEemLi4R2chb0Fw _gB1lsfmeEemLi4R2chb0Fw _hr8XFfmeEemLi4R2chb0Fw _jL2qofmeEemLi4R2chb0Fw _kln5-PmeEemLi4R2chb0Fw _l2oO0_meEemLi4R2chb0Fw _nCV0BvmeEemLi4R2chb0Fw _sWuexvmeEemLi4R2chb0Fw _tWggx_meEemLi4R2chb0Fw" width="126" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='CBE%20Mass%20(kg)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me1vmdEemLi4R2chb0Fw" label="MGA (%)" cells="_Y_c9gPmdEemLi4R2chb0Fw _dXGdwPmeEemLi4R2chb0Fw _gB2MwPmeEemLi4R2chb0Fw _hr-MQPmeEemLi4R2chb0Fw _jL3RsPmeEemLi4R2chb0Fw _klohAfmeEemLi4R2chb0Fw _l2o14PmeEemLi4R2chb0Fw _nCV0CPmeEemLi4R2chb0Fw _sWueyPmeEemLi4R2chb0Fw _tWhH0fmeEemLi4R2chb0Fw" width="85" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MGA%20(%25)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me2PmdEemLi4R2chb0Fw" label="MEV Mass (kg)" cells="_Y_fZwfmdEemLi4R2chb0Fw _dXHE0PmeEemLi4R2chb0Fw _gB2MwvmeEemLi4R2chb0Fw _hr-MQvmeEemLi4R2chb0Fw _jL34wfmeEemLi4R2chb0Fw _klohA_meEemLi4R2chb0Fw _l2o14vmeEemLi4R2chb0Fw _nCWbEfmeEemLi4R2chb0Fw _sWueyvmeEemLi4R2chb0Fw _tWhu4fmeEemLi4R2chb0Fw" width="132" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='MEV%20Mass%20(kg)']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_Me2vmdEemLi4R2chb0Fw" label="Qty" width="44" featureName="multiplicity">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Quantity']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_NF4PmdEemLi4R2chb0Fw" label="Allocation (kg)" cells="_dXHr4vmeEemLi4R2chb0Fw _gB2z0vmeEemLi4R2chb0Fw _hr-zUfmeEemLi4R2chb0Fw _jL5G4fmeEemLi4R2chb0Fw _klohBvmeEemLi4R2chb0Fw _l2qEAfmeEemLi4R2chb0Fw _nCWbFPmeEemLi4R2chb0Fw _sWvF0vmeEemLi4R2chb0Fw _tWhu5PmeEemLi4R2chb0Fw" width="129" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='Allocation']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_NF4vmdEemLi4R2chb0Fw" label="JPL Margin (%)" cells="_dXIS8PmeEemLi4R2chb0Fw _gB2z1PmeEemLi4R2chb0Fw _hr-zU_meEemLi4R2chb0Fw _jL5G4_meEemLi4R2chb0Fw _klpIEfmeEemLi4R2chb0Fw _l2qrEfmeEemLi4R2chb0Fw _nCWbFvmeEemLi4R2chb0Fw _sWvF1PmeEemLi4R2chb0Fw _tWiV8PmeEemLi4R2chb0Fw" width="130" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='JPL%20Margin']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_Y_NF5PmdEemLi4R2chb0Fw" label="AIAA Margin (%)" cells="_dXI6AfmeEemLi4R2chb0Fw _gB3a4fmeEemLi4R2chb0Fw _hr-zVfmeEemLi4R2chb0Fw _jL5G5fmeEemLi4R2chb0Fw _klpIE_meEemLi4R2chb0Fw _l2qrE_meEemLi4R2chb0Fw _nCWbGPmeEemLi4R2chb0Fw _sWvF1vmeEemLi4R2chb0Fw _tWiV8vmeEemLi4R2chb0Fw" width="147" featureName="massAllocation">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']/@ownedColumnMappings[name='AIAA%20Margin']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/gov.nasa.jpl.imce.caesar.efse.viewpoint/description/mass.odesign#//@ownedViewpoints[name='mass']/@ownedRepresentations[name='Mass%20Manifest']"/>
+  </table:DTable>
+</xmi:XMI>

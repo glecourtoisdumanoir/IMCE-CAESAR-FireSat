@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ASCII"?>
+<efse:FunctionList xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:efse="http://imce.jpl.nasa.gov/caesar/efse" xmi:id="_7CLpkH8SEeixEPdCsclxDg" name="Firesat Functions">
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_B7TDEO7hEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_XyQmkJRQEemOX4eyXOr9hA"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_Eg1h8O7hEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_wZaNoJOvEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_S-znYO7hEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_Lt17QJPIEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_bKzYcO7hEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <functions xsi:type="efse:Function" xmi:id="_b9RV0PX1Eem3XbxKjQlwhA" name="Power 2004 to 2001" state="Baseline" serialNumber="1" flow=">">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_0ubiUPX1Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_1ROGUfX1Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_1ROGUPX1Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_1kAfcPX1Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_2EIJ8fX1Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_2EIJ8PX1Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_2axvYPX1Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_24fmIfX1Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_24fmIPX1Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_qP9YUPX1Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_rFOzcfX1Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_rFOzcPX1Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+    </functions>
+    <functions xsi:type="efse:Function" xmi:id="_dodsUPX1Eem3XbxKjQlwhA" name="Power 2001 to 2004" state="Baseline" serialNumber="2" flow="&lt;">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_GsH28PX2Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_IZv2YfX2Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_IZv2YPX2Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_IvvUgPX2Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_KAi1EfX2Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_KAi1EPX2Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_KVDsgPX2Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_Lvwv8PX2Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_LvwI4PX2Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_Faa-gPX2Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_4IJzoRy3Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_4IJzoBy3Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vR9dUOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YPAFoK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_x2Ow4OnmEemza_JiiW2ylA"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_jwSAgO7hEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_sK0bYJOxEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_bFvc0O7iEemYJuh4chZMCA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_AW36cJOxEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_ldKK8PXlEem3XbxKjQlwhA">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_A4XBcJOyEemXD4A3fC9Vag"/>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vl2EBVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <functions xsi:type="efse:Function" xmi:id="_0OY0gPXuEem3XbxKjQlwhA" name="Power 20012001EPSRCU to 2001" state="Baseline" serialNumber="1" flow=">">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_3B1zkPXuEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_nt1swPXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_nt1FsPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_8IQ60PXuEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_lyCtcfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_lyCtcPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+    </functions>
+    <functions xsi:type="efse:Function" xmi:id="_mdalsPXzEem3XbxKjQlwhA" name="Power 2001 to 20012001EPSRCU" state="Baseline" serialNumber="2" flow="&lt;">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_oPlG4PXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_v9xhofXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_v9xhoPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_wsMt4PXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_xIBuQfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_xIBuQPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_OnTyoK5qEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_xV2u4PXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_xsr6gfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_xsr6gPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_DXSz4OnnEemza_JiiW2ylA"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8KFXcK5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_OnTyoK5qEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_DXSz4OnnEemza_JiiW2ylA"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vmdIBVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_wZaNoJOvEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <functions xsi:type="efse:Function" xmi:id="_cq1SUPXoEem3XbxKjQlwhA" name="Power 2001 to 2007" state="Baseline" serialNumber="1" flow="&lt;">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_oKArYPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_pBUt4fXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_pBUt4PXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_axqPoK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_pZNCYPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_p85lUfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_p85lUPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_bwRmYOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_qNxS4PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_qubI4fXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_qubI4PXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_fWeRAOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_q3Ri4PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_rVzR8fXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_rVzR8PXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_hCPPQOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_sARyUPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_sb9owfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_sb9owPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_dfXMAK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_tcTEYPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_uJHuIfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_uJHuIPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_gbRjgK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_uUhs4PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_uzVv0fXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_uzVv0PXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_IvjDIK5sEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_vKPM4PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_vwIvQfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_vwIvQPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_PQQXEK5sEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_v9f10PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_wagh8fXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_wagh8PXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_TF5y8K5sEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_xeBNYPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_x4lpgfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_x4lpgPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_pj35IOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_yBo30PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_ydxaMfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_ydxaMPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_qpUeQOnmEemza_JiiW2ylA"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_ywGgUPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_zNQ9cfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_zNQ9cPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vARBgK5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_zWZrUPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_zz6twfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_zz6twPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_xVpkgK5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_YGrQoBy2Eeqa48o-GgR_YQ">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_FOQuQRy4Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_FOQuQBy4Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_axqPoK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_bwRmYOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_fWeRAOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_hCPPQOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_dfXMAK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_gbRjgK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_IvjDIK5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_PQQXEK5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_TF5y8K5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_pj35IOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_qpUeQOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_vARBgK5rEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_xVpkgK5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vnEMBVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_sK0bYJOxEemXD4A3fC9Vag"/>
+    <functions xsi:type="efse:Function" xmi:id="_A4tYwPX0Eem3XbxKjQlwhA" name="Power 2001 to 2002" state="Baseline" serialNumber="1" flow=">">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_ITlAwBy1Eeqa48o-GgR_YQ">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_ITln0Ry1Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_ITln0By1Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_IrPg8PX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_JDQYUfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_JDQYUPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_DdO08K5sEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_JPVsgPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_JleUkfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_JleUkPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_Gf_bUK5sEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_Ju7LgPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_KJWdsfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_KJWdsPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_i3HeYK5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_KUJYcPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_KyycQfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_KyycQPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_my0e8K5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_LGbJ8PX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_LfOrgfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_LfOrgPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_rpGRYK5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_DdO08K5sEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_Gf_bUK5sEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_i3HeYK5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_my0e8K5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_rpGRYK5rEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vnEMRVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_AW36cJOxEemXD4A3fC9Vag"/>
+    <functions xsi:type="efse:Function" xmi:id="_Rl1dYPX0Eem3XbxKjQlwhA" name="Power 2001 to 2006" state="Baseline" serialNumber="1" flow=">">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_5Iv_4By1Eeqa48o-GgR_YQ">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_ITln0Ry1Eeqa48o-GgR_YQ"/>
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_CtaiIRy4Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_CtaiIBy4Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_j7MEEPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_lZLsEfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_lZLsEPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_jKEsEK5qEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_ls3dEPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_mIS00fX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_mIS00PX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_ALVmYK5sEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_mTPgkPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_mwbL0fX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_mwbL0PX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8OfBMK5pEem6ANr7eI5-jw"/>
+      </ends2>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_m9ILEPX0Eem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_niIVkfX0Eem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_niIVkPX0Eem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_23bAcK5qEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_jKEsEK5qEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_ALVmYK5sEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_8OfBMK5pEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_23bAcK5qEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vnrQBVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_Lt17QJPIEemXD4A3fC9Vag"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <functions xsi:type="efse:Function" xmi:id="_NXCisPXpEem3XbxKjQlwhA" name="Power 2001 to 2010" state="Baseline" serialNumber="1" flow="&lt;">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_VFX70PXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_VqyWAfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_VqyWAPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_LW11gK5sEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_WCZkwPXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_W876YfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_W876YPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_v9TG8K5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_XgyOUPXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_ZqH5YfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_ZqH5YPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_Za93kK5sEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_aVDswPXzEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_bElsQfXzEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_bElsQPXzEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#__2BIkK5pEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_eYfM8By2Eeqa48o-GgR_YQ">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_GawWkRy4Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_GawWkBy4Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_LW11gK5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_muZHYK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_1u2oQOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_p4bacK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_4XeQUOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6ZdWMOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_7xGekOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_9VzykOnmEemza_JiiW2ylA"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_v9TG8K5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_Za93kK5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_coHwEK5sEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#__2BIkK5pEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_Cqb7gK5rEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_LLA1cK5rEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_OTIc8K5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+  <subsystemPairs xsi:type="efse:SubsystemPair" xmi:id="_5vnrQRVlEeqhTNweC2t9vQ">
+    <subsystem1 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_XyQmkJRQEemOX4eyXOr9hA"/>
+    <subsystem2 xsi:type="efse:Subsystem" href="../flightsystem/FlightSystem.refdes#_8Pce4JRcEemOX4eyXOr9hA"/>
+    <functions xsi:type="efse:Function" xmi:id="_sLeyMPXnEem3XbxKjQlwhA" name="Power 2001 to 2021" state="Baseline" serialNumber="1" flow="&lt;">
+      <specializes xsi:type="efse:AbstractFunction" href="../libraries/FunctionTypes.library#_YKaDJoFnEeiNqNyH9cEJTQ"/>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_Dd1eYPXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_EVSDwfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_EVSDwPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_CVfbsK5qEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends1 xsi:type="efse:FunctionEnd" xmi:id="_EtQe4PXoEem3XbxKjQlwhA">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_FLCAAfXoEem3XbxKjQlwhA"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_FLCAAPXoEem3XbxKjQlwhA"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YqCmYK5rEem6ANr7eI5-jw"/>
+      </ends1>
+      <ends2 xsi:type="efse:FunctionEnd" xmi:id="_h_ESEBy2Eeqa48o-GgR_YQ">
+        <endCircuits xsi:type="efse:EndCircuit" href="../flightsystem/FlightSystem.refdes#_HeQa8Ry4Eeqa48o-GgR_YQ"/>
+        <endCircuitGroup xsi:type="efse:EndCircuitGroup" href="../flightsystem/FlightSystem.refdes#_HeQa8By4Eeqa48o-GgR_YQ"/>
+        <assembly xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+      </ends2>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_CVfbsK5qEem6ANr7eI5-jw"/>
+      <assemblies1 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_YqCmYK5rEem6ANr7eI5-jw"/>
+      <assemblies2 xsi:type="efse:Assembly" href="../flightsystem/FlightSystem.refdes#_6AhC4K5rEem6ANr7eI5-jw"/>
+    </functions>
+  </subsystemPairs>
+</efse:FunctionList>
